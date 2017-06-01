@@ -4,126 +4,126 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>/</loc>
-<lastmod>2017-05-31T20:52:19-00:00</lastmod>
+<loc>https://kkweon.github.io/</loc>
+<lastmod>2017-05-31T21:00:50-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
-<loc>/archives.html</loc>
-<lastmod>2017-05-31T20:52:19-00:00</lastmod>
+<loc>https://kkweon.github.io/archives.html</loc>
+<lastmod>2017-05-31T21:00:50-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
-<loc>/tags.html</loc>
-<lastmod>2017-05-31T20:52:19-00:00</lastmod>
+<loc>https://kkweon.github.io/tags.html</loc>
+<lastmod>2017-05-31T21:00:50-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
-<loc>/categories.html</loc>
-<lastmod>2017-05-31T20:52:19-00:00</lastmod>
+<loc>https://kkweon.github.io/categories.html</loc>
+<lastmod>2017-05-31T21:00:50-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
-<loc>/pages/about.html</loc>
-<lastmod>2017-05-31T20:52:19-00:00</lastmod>
+<loc>https://kkweon.github.io/pages/about.html</loc>
+<lastmod>2017-05-31T21:00:50-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/python-docstyle-guide.html</loc>
+<loc>https://kkweon.github.io/python-docstyle-guide.html</loc>
 <lastmod>2017-05-24T10:20:00-07:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
-<loc>/kalman-filter.html</loc>
+<loc>https://kkweon.github.io/kalman-filter.html</loc>
 <lastmod>2017-01-19T00:00:00-08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
-<loc>/particle-filter-revisit.html</loc>
+<loc>https://kkweon.github.io/particle-filter-revisit.html</loc>
 <lastmod>2017-01-10T00:00:00-08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
-<loc>/smoothing-path-pid-control.html</loc>
+<loc>https://kkweon.github.io/smoothing-path-pid-control.html</loc>
 <lastmod>2016-12-23T00:00:00-08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
-<loc>/how-to-read-papers.html</loc>
+<loc>https://kkweon.github.io/how-to-read-papers.html</loc>
 <lastmod>2016-12-19T00:00:00-08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
-<loc>/resampling-wheel-algorithm.html</loc>
+<loc>https://kkweon.github.io/resampling-wheel-algorithm.html</loc>
 <lastmod>2016-12-12T00:00:00-08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
-<loc>/super-learner.html</loc>
+<loc>https://kkweon.github.io/super-learner.html</loc>
 <lastmod>2016-11-13T00:00:00-08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
-<loc>/knn-cs231n-lecture-2.html</loc>
+<loc>https://kkweon.github.io/knn-cs231n-lecture-2.html</loc>
 <lastmod>2016-07-31T10:20:00-07:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
-<loc>/jupyter-nb-blog.html</loc>
+<loc>https://kkweon.github.io/jupyter-nb-blog.html</loc>
 <lastmod>2010-01-31T00:00:00-08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
-<loc>/category/python.html</loc>
+<loc>https://kkweon.github.io/category/python.html</loc>
 <lastmod>2017-05-24T10:20:00-07:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
-<loc>/category/misc.html</loc>
+<loc>https://kkweon.github.io/category/misc.html</loc>
 <lastmod>2016-12-19T00:00:00-07:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
-<loc>/tag/jupyter-notebook.html</loc>
+<loc>https://kkweon.github.io/tag/jupyter-notebook.html</loc>
 <lastmod>2010-01-31T00:00:00-07:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
-<loc>/author/mo.html</loc>
+<loc>https://kkweon.github.io/author/mo.html</loc>
 <lastmod>2017-05-24T10:20:00-07:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>

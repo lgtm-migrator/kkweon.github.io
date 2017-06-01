@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Machine Learning Study Blog - python</title><link>/</link><description></description><lastBuildDate>Wed, 24 May 2017 10:20:00 -0700</lastBuildDate><item><title>파이썬 (doc) 스타일 가이드에 대한 정리</title><link>/python-docstyle-guide.html</link><description>&lt;p&gt;최근에 여러 사람들이랑 스타일가이드 얘기를 나누면서
+<rss version="2.0"><channel><title>Machine Learning Study Blog - python</title><link>https://kkweon.github.io/</link><description></description><lastBuildDate>Wed, 24 May 2017 10:20:00 -0700</lastBuildDate><item><title>파이썬 (doc) 스타일 가이드에 대한 정리</title><link>https://kkweon.github.io/python-docstyle-guide.html</link><description>&lt;p&gt;최근에 여러 사람들이랑 스타일가이드 얘기를 나누면서
 또 이전에 여러 초고수분들에게 들으면서 배웠던게 생각나
 되돌아보며 정리해볼까 해서 작성한&amp;nbsp;글이다.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;왜 스타일 가이드인가?&lt;/strong&gt;
 스타일 가이드는 말그대로 “가이드”일 뿐이라고 하는 사람들이 있다.
 맞긴 맞다. 그런데 꼭 스타일대로 작성하는게 아니더라도 어느 스타일을 선택해야&amp;nbsp;된다. &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;스타일 = 일관성&lt;/strong&gt;이기&amp;nbsp;때문이다.&lt;/p&gt;
-&lt;p&gt;스타일이 없는 코드는 일관성이 없는 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mo</dc:creator><pubDate>Wed, 24 May 2017 10:20:00 -0700</pubDate><guid isPermaLink="false">tag:None,2017-05-24:/python-docstyle-guide.html</guid></item><item><title>Kalman Filter</title><link>/kalman-filter.html</link><description>&lt;h2&gt;Definition&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Kalman filtering, also known as linear quadratic estimation (&lt;span class="caps"&gt;LQE&lt;/span&gt;), is an algorithm&lt;/strong&gt; that uses a series of measurements observed over time, containing statistical noise and other inaccuracies, and produces estimates of unknown variables that tend to be more precise than those based on a single measurement alone, blah blah …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mo</dc:creator><pubDate>Thu, 19 Jan 2017 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:None,2017-01-19:/kalman-filter.html</guid></item><item><title>Particle Filter Revisit</title><link>/particle-filter-revisit.html</link><description>&lt;p&gt;There are many filters to localize a robot. Most common filters&amp;nbsp;are&lt;/p&gt;
+&lt;p&gt;스타일이 없는 코드는 일관성이 없는 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mo</dc:creator><pubDate>Wed, 24 May 2017 10:20:00 -0700</pubDate><guid isPermaLink="false">tag:kkweon.github.io,2017-05-24:/python-docstyle-guide.html</guid></item><item><title>Kalman Filter</title><link>https://kkweon.github.io/kalman-filter.html</link><description>&lt;h2&gt;Definition&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Kalman filtering, also known as linear quadratic estimation (&lt;span class="caps"&gt;LQE&lt;/span&gt;), is an algorithm&lt;/strong&gt; that uses a series of measurements observed over time, containing statistical noise and other inaccuracies, and produces estimates of unknown variables that tend to be more precise than those based on a single measurement alone, blah blah …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mo</dc:creator><pubDate>Thu, 19 Jan 2017 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:kkweon.github.io,2017-01-19:/kalman-filter.html</guid></item><item><title>Particle Filter Revisit</title><link>https://kkweon.github.io/particle-filter-revisit.html</link><description>&lt;p&gt;There are many filters to localize a robot. Most common filters&amp;nbsp;are&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -39,13 +39,13 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h2&gt;How a Particle Filter&amp;nbsp;work&lt;/h2&gt;
-&lt;p&gt;So how does it work? it works …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mo</dc:creator><pubDate>Tue, 10 Jan 2017 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:None,2017-01-10:/particle-filter-revisit.html</guid></item><item><title>Smoothing Path &amp; PID Control</title><link>/smoothing-path-pid-control.html</link><description>&lt;p&gt;It would be awkward if the self-driving car only make a turn at the perfect angle of 90 degree. So, we need a smooth path&amp;nbsp;algorithm.&lt;/p&gt;
+&lt;p&gt;So how does it work? it works …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mo</dc:creator><pubDate>Tue, 10 Jan 2017 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:kkweon.github.io,2017-01-10:/particle-filter-revisit.html</guid></item><item><title>Smoothing Path &amp; PID Control</title><link>https://kkweon.github.io/smoothing-path-pid-control.html</link><description>&lt;p&gt;It would be awkward if the self-driving car only make a turn at the perfect angle of 90 degree. So, we need a smooth path&amp;nbsp;algorithm.&lt;/p&gt;
 &lt;h2&gt;Smoothing Path&amp;nbsp;Algorithm&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;span class="math"&gt;\(X_i\)&lt;/span&gt; denotes each&amp;nbsp;state&lt;/li&gt;
 &lt;li&gt;Set &lt;span class="math"&gt;\(Y_i =&amp;nbsp;X_i\)&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Optimize &lt;span class="math"&gt;\(\min\ (X_i - Y_i)^2 + \alpha \cdot \min\ (Y_i -&amp;nbsp;Y_{i+1})^2\)&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;Solve …&lt;/li&gt;&lt;/ol&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mo</dc:creator><pubDate>Fri, 23 Dec 2016 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:None,2016-12-23:/smoothing-path-pid-control.html</guid></item><item><title>Resampling Wheel Algorithm</title><link>/resampling-wheel-algorithm.html</link><description>&lt;p&gt;Particle Filter들을 P 분포에 대해서 Random Sampling 하는 알고리즘
+&lt;li&gt;Solve …&lt;/li&gt;&lt;/ol&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mo</dc:creator><pubDate>Fri, 23 Dec 2016 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:kkweon.github.io,2016-12-23:/smoothing-path-pid-control.html</guid></item><item><title>Resampling Wheel Algorithm</title><link>https://kkweon.github.io/resampling-wheel-algorithm.html</link><description>&lt;p&gt;Particle Filter들을 P 분포에 대해서 Random Sampling 하는 알고리즘
 완전한 랜덤보다 X, Y와 비슷한 값을&amp;nbsp;준다&lt;/p&gt;
 &lt;h2&gt;Resampling Wheel&amp;nbsp;Pseudocode&lt;/h2&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;index = U[1, N]
@@ -57,7 +57,7 @@ for i = [1, N]:
 
     while beta &amp;gt; w[index]:
         beta = beta - w[index]
-        index = (index + 1) % N …&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mo</dc:creator><pubDate>Mon, 12 Dec 2016 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:None,2016-12-12:/resampling-wheel-algorithm.html</guid></item><item><title>KNN CS231n Lecture</title><link>/knn-cs231n-lecture-2.html</link><description>&lt;h2&gt;필요 라이브러리&amp;nbsp;호출&lt;/h2&gt;
+        index = (index + 1) % N …&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mo</dc:creator><pubDate>Mon, 12 Dec 2016 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:kkweon.github.io,2016-12-12:/resampling-wheel-algorithm.html</guid></item><item><title>KNN CS231n Lecture</title><link>https://kkweon.github.io/knn-cs231n-lecture-2.html</link><description>&lt;h2&gt;필요 라이브러리&amp;nbsp;호출&lt;/h2&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;numpy&lt;/span&gt; &lt;span class="kn"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;np&lt;/span&gt;
 &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;operator&lt;/span&gt;
 &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;os&lt;/span&gt;
@@ -80,6 +80,6 @@ for i = [1, N]:
 &lt;span class="c1"&gt;# 1:5 -&amp;gt; Train Set&lt;/span&gt;
 &lt;span class="c1"&gt;# 7 -&amp;gt; Test Set&lt;/span&gt;
 &lt;span class="n"&gt;LabelData&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;fileList&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
-&lt;span class="n"&gt;TrainDatasets …&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mo</dc:creator><pubDate>Sun, 31 Jul 2016 10:20:00 -0700</pubDate><guid isPermaLink="false">tag:None,2016-07-31:/knn-cs231n-lecture-2.html</guid></item><item><title>Main Test</title><link>/jupyter-nb-blog.html</link><description>
+&lt;span class="n"&gt;TrainDatasets …&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mo</dc:creator><pubDate>Sun, 31 Jul 2016 10:20:00 -0700</pubDate><guid isPermaLink="false">tag:kkweon.github.io,2016-07-31:/knn-cs231n-lecture-2.html</guid></item><item><title>Main Test</title><link>https://kkweon.github.io/jupyter-nb-blog.html</link><description>
 &lt;div class="cell border-box-sizing code_cell rendered"&gt;
-&lt;div class="input"&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mo</dc:creator><pubDate>Sun, 31 Jan 2010 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:None,2010-01-31:/jupyter-nb-blog.html</guid><category>Jupyter Notebook</category></item></channel></rss>
+&lt;div class="input"&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mo</dc:creator><pubDate>Sun, 31 Jan 2010 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:kkweon.github.io,2010-01-31:/jupyter-nb-blog.html</guid><category>Jupyter Notebook</category></item></channel></rss>

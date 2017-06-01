@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Machine Learning Study Blog</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2017-05-24T10:20:00-07:00</updated><entry><title>파이썬 (doc) 스타일 가이드에 대한 정리</title><link href="/python-docstyle-guide.html" rel="alternate"></link><published>2017-05-24T10:20:00-07:00</published><updated>2017-05-24T10:20:00-07:00</updated><author><name>Mo</name></author><id>tag:None,2017-05-24:/python-docstyle-guide.html</id><summary type="html">&lt;p&gt;최근에 여러 사람들이랑 스타일가이드 얘기를 나누면서
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Machine Learning Study Blog</title><link href="https://kkweon.github.io/" rel="alternate"></link><link href="https://kkweon.github.io/feeds/all.atom.xml" rel="self"></link><id>https://kkweon.github.io/</id><updated>2017-05-24T10:20:00-07:00</updated><entry><title>파이썬 (doc) 스타일 가이드에 대한 정리</title><link href="https://kkweon.github.io/python-docstyle-guide.html" rel="alternate"></link><published>2017-05-24T10:20:00-07:00</published><updated>2017-05-24T10:20:00-07:00</updated><author><name>Mo</name></author><id>tag:kkweon.github.io,2017-05-24:/python-docstyle-guide.html</id><summary type="html">&lt;p&gt;최근에 여러 사람들이랑 스타일가이드 얘기를 나누면서
 또 이전에 여러 초고수분들에게 들으면서 배웠던게 생각나
 되돌아보며 정리해볼까 해서 작성한&amp;nbsp;글이다.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;왜 스타일 가이드인가?&lt;/strong&gt;
@@ -195,7 +195,7 @@ PEP8과 비교해서 가장 다른 점은 “Docstring”을 작성하는 법에
 &lt;li&gt;pylint&lt;/li&gt;
 &lt;li&gt;autopep8&lt;/li&gt;
 &lt;li&gt;autoflake&lt;/li&gt;
-&lt;/ul&gt;</content></entry><entry><title>Kalman Filter</title><link href="/kalman-filter.html" rel="alternate"></link><published>2017-01-19T00:00:00-08:00</published><updated>2017-01-19T00:00:00-08:00</updated><author><name>Mo</name></author><id>tag:None,2017-01-19:/kalman-filter.html</id><summary type="html">&lt;h2&gt;Definition&lt;/h2&gt;
+&lt;/ul&gt;</content></entry><entry><title>Kalman Filter</title><link href="https://kkweon.github.io/kalman-filter.html" rel="alternate"></link><published>2017-01-19T00:00:00-08:00</published><updated>2017-01-19T00:00:00-08:00</updated><author><name>Mo</name></author><id>tag:kkweon.github.io,2017-01-19:/kalman-filter.html</id><summary type="html">&lt;h2&gt;Definition&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Kalman filtering, also known as linear quadratic estimation (&lt;span class="caps"&gt;LQE&lt;/span&gt;), is an algorithm&lt;/strong&gt; that uses a series of measurements observed over time, containing statistical noise and other inaccuracies, and produces estimates of unknown variables that tend to be more precise than those based on a single measurement alone, blah blah …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Definition&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Kalman filtering, also known as linear quadratic estimation (&lt;span class="caps"&gt;LQE&lt;/span&gt;), is an algorithm&lt;/strong&gt; that uses a series of measurements observed over time, containing statistical noise and other inaccuracies, and produces estimates of unknown variables that tend to be more precise than those based on a single measurement alone, blah blah (according to &lt;a href="https://en.wikipedia.org/wiki/Kalman_filter"&gt;Wikipedia&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;Simply put, Kalman Filter is used&amp;nbsp;when&lt;/p&gt;
@@ -204,7 +204,7 @@ PEP8과 비교해서 가장 다른 점은 “Docstring”을 작성하는 법에
 &lt;li&gt;you want to find true states of something (usually a&amp;nbsp;robot)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Flowchart of Kalman&amp;nbsp;Filter&lt;/h2&gt;
-&lt;p&gt;&lt;img src="/images/kalman_filter/basic_concept.png" width="900"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://kkweon.github.io/images/kalman_filter/basic_concept.png" width="900"&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;By linear dynamics, we can predict the object&amp;#8217;s states(location, velocity, etc). For example,&lt;ul&gt;
 &lt;li&gt;&lt;span class="math"&gt;\(x = x + velocity \cdot t + \frac{1}{2} \cdot acceleration \cdot&amp;nbsp;t^2\)&lt;/span&gt;&lt;/li&gt;
@@ -292,7 +292,7 @@ PEP8과 비교해서 가장 다른 점은 “Docstring”을 작성하는 법에
         "}";
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;</content></entry><entry><title>Particle Filter Revisit</title><link href="/particle-filter-revisit.html" rel="alternate"></link><published>2017-01-10T00:00:00-08:00</published><updated>2017-01-10T00:00:00-08:00</updated><author><name>Mo</name></author><id>tag:None,2017-01-10:/particle-filter-revisit.html</id><summary type="html">&lt;p&gt;There are many filters to localize a robot. Most common filters&amp;nbsp;are&lt;/p&gt;
+&lt;/script&gt;</content></entry><entry><title>Particle Filter Revisit</title><link href="https://kkweon.github.io/particle-filter-revisit.html" rel="alternate"></link><published>2017-01-10T00:00:00-08:00</published><updated>2017-01-10T00:00:00-08:00</updated><author><name>Mo</name></author><id>tag:kkweon.github.io,2017-01-10:/particle-filter-revisit.html</id><summary type="html">&lt;p&gt;There are many filters to localize a robot. Most common filters&amp;nbsp;are&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -425,7 +425,7 @@ PEP8과 비교해서 가장 다른 점은 “Docstring”을 작성하는 법에
         "}";
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;</content></entry><entry><title>Smoothing Path &amp; PID Control</title><link href="/smoothing-path-pid-control.html" rel="alternate"></link><published>2016-12-23T00:00:00-08:00</published><updated>2016-12-23T00:00:00-08:00</updated><author><name>Mo</name></author><id>tag:None,2016-12-23:/smoothing-path-pid-control.html</id><summary type="html">&lt;p&gt;It would be awkward if the self-driving car only make a turn at the perfect angle of 90 degree. So, we need a smooth path&amp;nbsp;algorithm.&lt;/p&gt;
+&lt;/script&gt;</content></entry><entry><title>Smoothing Path &amp; PID Control</title><link href="https://kkweon.github.io/smoothing-path-pid-control.html" rel="alternate"></link><published>2016-12-23T00:00:00-08:00</published><updated>2016-12-23T00:00:00-08:00</updated><author><name>Mo</name></author><id>tag:kkweon.github.io,2016-12-23:/smoothing-path-pid-control.html</id><summary type="html">&lt;p&gt;It would be awkward if the self-driving car only make a turn at the perfect angle of 90 degree. So, we need a smooth path&amp;nbsp;algorithm.&lt;/p&gt;
 &lt;h2&gt;Smoothing Path&amp;nbsp;Algorithm&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;span class="math"&gt;\(X_i\)&lt;/span&gt; denotes each&amp;nbsp;state&lt;/li&gt;
@@ -560,7 +560,7 @@ PEP8과 비교해서 가장 다른 점은 “Docstring”을 작성하는 법에
         "}";
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;</content></entry><entry><title>How to read papers</title><link href="/how-to-read-papers.html" rel="alternate"></link><published>2016-12-19T00:00:00-08:00</published><updated>2016-12-19T00:00:00-08:00</updated><author><name>Mo</name></author><id>tag:None,2016-12-19:/how-to-read-papers.html</id><summary type="html">&lt;p&gt;Recently I have been reading many papers in &lt;span class="caps"&gt;AI&lt;/span&gt;, &lt;span class="caps"&gt;ML&lt;/span&gt;, and &lt;span class="caps"&gt;DL&lt;/span&gt;. One day I was curious if there are some proper ways to read papers. So, I googled it and found &lt;a href="http://ccr.sigcomm.org/online/files/p83-keshavA.pdf"&gt;this article&lt;/a&gt; by S. Keshav is very helpful. Here is the summary of the article&lt;sup id="ref1"&gt;&lt;a href="#ft1"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;/script&gt;</content></entry><entry><title>How to read papers</title><link href="https://kkweon.github.io/how-to-read-papers.html" rel="alternate"></link><published>2016-12-19T00:00:00-08:00</published><updated>2016-12-19T00:00:00-08:00</updated><author><name>Mo</name></author><id>tag:kkweon.github.io,2016-12-19:/how-to-read-papers.html</id><summary type="html">&lt;p&gt;Recently I have been reading many papers in &lt;span class="caps"&gt;AI&lt;/span&gt;, &lt;span class="caps"&gt;ML&lt;/span&gt;, and &lt;span class="caps"&gt;DL&lt;/span&gt;. One day I was curious if there are some proper ways to read papers. So, I googled it and found &lt;a href="http://ccr.sigcomm.org/online/files/p83-keshavA.pdf"&gt;this article&lt;/a&gt; by S. Keshav is very helpful. Here is the summary of the article&lt;sup id="ref1"&gt;&lt;a href="#ft1"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 &lt;h3&gt;Three pass …&lt;/h3&gt;</summary><content type="html">&lt;p&gt;Recently I have been reading many papers in &lt;span class="caps"&gt;AI&lt;/span&gt;, &lt;span class="caps"&gt;ML&lt;/span&gt;, and &lt;span class="caps"&gt;DL&lt;/span&gt;. One day I was curious if there are some proper ways to read papers. So, I googled it and found &lt;a href="http://ccr.sigcomm.org/online/files/p83-keshavA.pdf"&gt;this article&lt;/a&gt; by S. Keshav is very helpful. Here is the summary of the article&lt;sup id="ref1"&gt;&lt;a href="#ft1"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 &lt;h3&gt;Three pass&amp;nbsp;approach&lt;/h3&gt;
 &lt;p&gt;S. Keshav introduced the so-called three pass approach. Even though I don&amp;#8217;t write papers, this approach seems to be an instructive guide how I am supposed read papers after trying out &lt;em&gt;the three pass approach&lt;/em&gt; on&amp;nbsp;papers. &lt;/p&gt;
@@ -607,7 +607,7 @@ PEP8과 비교해서 가장 다른 점은 “Docstring”을 작성하는 법에
 &lt;h3&gt;Conclusion&lt;/h3&gt;
 &lt;p&gt;Thanks to this detailed guide, I found myself now I feel more confident after reading papers. The key portion of this approach is really the third pass. I found I learn so much by re-generating papers though it takes one full day for&amp;nbsp;me.&lt;/p&gt;
 &lt;h3&gt;Reference&lt;/h3&gt;
-&lt;p&gt;&lt;span id="ft1"&gt;[1]&lt;/span&gt; S. Keshav, &amp;#8220;How to read a paper,&amp;#8221; http://ccr.sigcomm.org/online/files/p83-keshavA.pdf &lt;a href="#ref1"&gt;[↑]&lt;/a&gt;&lt;/p&gt;</content></entry><entry><title>Resampling Wheel Algorithm</title><link href="/resampling-wheel-algorithm.html" rel="alternate"></link><published>2016-12-12T00:00:00-08:00</published><updated>2016-12-12T00:00:00-08:00</updated><author><name>Mo</name></author><id>tag:None,2016-12-12:/resampling-wheel-algorithm.html</id><summary type="html">&lt;p&gt;Particle Filter들을 P 분포에 대해서 Random Sampling 하는 알고리즘
+&lt;p&gt;&lt;span id="ft1"&gt;[1]&lt;/span&gt; S. Keshav, &amp;#8220;How to read a paper,&amp;#8221; http://ccr.sigcomm.org/online/files/p83-keshavA.pdf &lt;a href="#ref1"&gt;[↑]&lt;/a&gt;&lt;/p&gt;</content></entry><entry><title>Resampling Wheel Algorithm</title><link href="https://kkweon.github.io/resampling-wheel-algorithm.html" rel="alternate"></link><published>2016-12-12T00:00:00-08:00</published><updated>2016-12-12T00:00:00-08:00</updated><author><name>Mo</name></author><id>tag:kkweon.github.io,2016-12-12:/resampling-wheel-algorithm.html</id><summary type="html">&lt;p&gt;Particle Filter들을 P 분포에 대해서 Random Sampling 하는 알고리즘
 완전한 랜덤보다 X, Y와 비슷한 값을&amp;nbsp;준다&lt;/p&gt;
 &lt;h2&gt;Resampling Wheel&amp;nbsp;Pseudocode&lt;/h2&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;index = U[1, N]
@@ -649,7 +649,7 @@ for i = [1, N]:
         &lt;span class="n"&gt;beta&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;beta&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;w&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;index&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
         &lt;span class="n"&gt;index&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt; &lt;span class="n"&gt;index&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;%&lt;/span&gt; &lt;span class="n"&gt;N&lt;/span&gt;
     &lt;span class="n"&gt;p3&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;append&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;p&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;index&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content></entry><entry><title>Super Learner 정리</title><link href="/super-learner.html" rel="alternate"></link><published>2016-11-13T00:00:00-08:00</published><updated>2016-11-13T00:00:00-08:00</updated><author><name>Mo</name></author><id>tag:None,2016-11-13:/super-learner.html</id><summary type="html">&lt;p&gt;&lt;a href="https://www.udemy.com/become-a-superlearner-2-speed-reading-memory-accelerated-learning"&gt;Udemy&amp;#8217;s Super Learner 2&lt;/a&gt;에 대한&amp;nbsp;노트&lt;/p&gt;
+&lt;/pre&gt;&lt;/div&gt;</content></entry><entry><title>Super Learner 정리</title><link href="https://kkweon.github.io/super-learner.html" rel="alternate"></link><published>2016-11-13T00:00:00-08:00</published><updated>2016-11-13T00:00:00-08:00</updated><author><name>Mo</name></author><id>tag:kkweon.github.io,2016-11-13:/super-learner.html</id><summary type="html">&lt;p&gt;&lt;a href="https://www.udemy.com/become-a-superlearner-2-speed-reading-memory-accelerated-learning"&gt;Udemy&amp;#8217;s Super Learner 2&lt;/a&gt;에 대한&amp;nbsp;노트&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;span class="caps"&gt;WPM&lt;/span&gt;:&amp;nbsp;260&lt;/li&gt;
 &lt;li&gt;Comprehension:&amp;nbsp;43%&lt;/li&gt;
@@ -695,7 +695,7 @@ for i = [1, N]:
 &lt;h1&gt;Chunking&lt;/h1&gt;
 &lt;p&gt;전화번호나 신용카드가 3-4자리로 구분되어져 있는 이유. Working Memory와 Short-Term Memory는 한번에 7±2정도의 조각의 정보밖에 기억하지 못함. 그래서 기억할 수 있을만큼 덩어리로 나누어서 기억하는 방법을 의미한다. Visual memory와 연관되어 더욱&amp;nbsp;효과적이다.&lt;/p&gt;
 &lt;h1&gt;&lt;span class="dquo"&gt;&amp;#8220;&lt;/span&gt;Brute Force&amp;nbsp;Learning&amp;#8221;&lt;/h1&gt;
-&lt;p&gt;한번에 한가지 방식의 학습이 아니라 다양한 학습 방법으로 동시에 여러가지 뉴런을 활성화시켜 기억한다. 글쓰기 듣기 보기.&amp;nbsp;등등.&lt;/p&gt;</content></entry><entry><title>KNN CS231n Lecture</title><link href="/knn-cs231n-lecture-2.html" rel="alternate"></link><published>2016-07-31T10:20:00-07:00</published><updated>2016-07-31T10:20:00-07:00</updated><author><name>Mo</name></author><id>tag:None,2016-07-31:/knn-cs231n-lecture-2.html</id><summary type="html">&lt;h2&gt;필요 라이브러리&amp;nbsp;호출&lt;/h2&gt;
+&lt;p&gt;한번에 한가지 방식의 학습이 아니라 다양한 학습 방법으로 동시에 여러가지 뉴런을 활성화시켜 기억한다. 글쓰기 듣기 보기.&amp;nbsp;등등.&lt;/p&gt;</content></entry><entry><title>KNN CS231n Lecture</title><link href="https://kkweon.github.io/knn-cs231n-lecture-2.html" rel="alternate"></link><published>2016-07-31T10:20:00-07:00</published><updated>2016-07-31T10:20:00-07:00</updated><author><name>Mo</name></author><id>tag:kkweon.github.io,2016-07-31:/knn-cs231n-lecture-2.html</id><summary type="html">&lt;h2&gt;필요 라이브러리&amp;nbsp;호출&lt;/h2&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;numpy&lt;/span&gt; &lt;span class="kn"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;np&lt;/span&gt;
 &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;operator&lt;/span&gt;
 &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;os&lt;/span&gt;
@@ -810,7 +810,7 @@ for i = [1, N]:
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;&lt;img alt="png" src="/images/knn/ship.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="https://kkweon.github.io/images/knn/ship.png"&gt;&lt;/p&gt;
 &lt;h2&gt;(k)Nearest Neighbor 클래스&amp;nbsp;define&lt;/h2&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;NearestNeighbor&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;object&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
     &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;train&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;X&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Y&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
@@ -1018,8 +1018,8 @@ for i = [1, N]:
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;&lt;img alt="png" src="/images/knn/kfold.png"&gt;
-Max Accuracy of 11.3% when k =&amp;nbsp;10.0&lt;/p&gt;</content></entry><entry><title>Main Test</title><link href="/jupyter-nb-blog.html" rel="alternate"></link><published>2010-01-31T00:00:00-08:00</published><updated>2010-01-31T00:00:00-08:00</updated><author><name>Mo</name></author><id>tag:None,2010-01-31:/jupyter-nb-blog.html</id><summary type="html">
+&lt;p&gt;&lt;img alt="png" src="https://kkweon.github.io/images/knn/kfold.png"&gt;
+Max Accuracy of 11.3% when k =&amp;nbsp;10.0&lt;/p&gt;</content></entry><entry><title>Main Test</title><link href="https://kkweon.github.io/jupyter-nb-blog.html" rel="alternate"></link><published>2010-01-31T00:00:00-08:00</published><updated>2010-01-31T00:00:00-08:00</updated><author><name>Mo</name></author><id>tag:kkweon.github.io,2010-01-31:/jupyter-nb-blog.html</id><summary type="html">
 &lt;div class="cell border-box-sizing code_cell rendered"&gt;
 &lt;div class="input"&gt;</summary><content type="html">&lt;style type="text/css"&gt;/*!
 *
