@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Machine Learning Study Blog</title><link>https://kkweon.github.io/</link><description></description><lastBuildDate>Wed, 24 May 2017 10:20:00 -0700</lastBuildDate><item><title>파이썬 (doc) 스타일 가이드에 대한 정리</title><link>https://kkweon.github.io/python-docstyle-guide.html</link><description>&lt;p&gt;최근에 여러 사람들이랑 스타일가이드 얘기를 나누면서
+<rss version="2.0"><channel><title>Machine Learning Study Blog</title><link>https://kkweon.github.io/</link><description>I write what I have learned today</description><lastBuildDate>Wed, 24 May 2017 10:20:00 -0700</lastBuildDate><item><title>파이썬 (doc) 스타일 가이드에 대한 정리</title><link>https://kkweon.github.io/python-docstyle-guide.html</link><description>&lt;p&gt;최근에 여러 사람들이랑 스타일가이드 얘기를 나누면서
 또 이전에 여러 초고수분들에게 들으면서 배웠던게 생각나
 되돌아보며 정리해볼까 해서 작성한&amp;nbsp;글이다.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;왜 스타일 가이드인가?&lt;/strong&gt;

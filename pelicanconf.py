@@ -8,7 +8,7 @@ RELATIVE_URLS = False
 AUTHOR = 'Mo'
 SITENAME = 'Machine Learning Study Blog'
 SITETITLE = 'ML Study Blog'
-SITESUBTITLE = ''
+SITESUBTITLE = 'I write what I have learned today'
 SITEDESCRIPTION = 'What I learn today'
 SITEURL = 'https://kkweon.github.io'
 # SITELOGO = SITEURL + '/images/profile.png'
@@ -85,8 +85,8 @@ USE_FOLDER_AS_CATEGORY = True
 MARKUP = ('md', 'ipynb')
 
 # Plugins
-PLUGIN_PATHS = ['./pelican-plugins', './plugins']
-PLUGINS = ['ipynb.markup',
+PLUGIN_PATHS = ['./pelican-plugins']
+PLUGINS = ['pelican-ipynb.markup',
            "render_math",
            'sitemap',
            'rmd_reader',
