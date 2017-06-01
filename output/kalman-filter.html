@@ -1,0 +1,260 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="/theme/stylesheet/style.min.css">
+
+  <link rel="stylesheet" type="text/css" href="/theme/pygments/github.min.css">
+  <link rel="stylesheet" type="text/css" href="/theme/font-awesome/css/font-awesome.min.css">
+
+
+    <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Machine Learning Study Blog Atom">
+
+    <link href="/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="Machine Learning Study Blog RSS">
+
+    <link rel="shortcut icon" href="https://kkweon.github.io/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="https://kkweon.github.io/images/favicon.ico" type="image/x-icon">
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow" />
+
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#333">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#333">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+<meta name="author" content="Mo" />
+<meta name="description" content="Definition Kalman filtering, also known as linear quadratic estimation (LQE), is an algorithm that uses a series of measurements observed over time, containing statistical noise and other inaccuracies, and produces estimates of unknown variables that tend to be more precise than those based on a single measurement alone, blah blah …" />
+<meta name="keywords" content="">
+<meta property="og:site_name" content="Machine Learning Study Blog"/>
+<meta property="og:title" content="Kalman Filter"/>
+<meta property="og:description" content="Definition Kalman filtering, also known as linear quadratic estimation (LQE), is an algorithm that uses a series of measurements observed over time, containing statistical noise and other inaccuracies, and produces estimates of unknown variables that tend to be more precise than those based on a single measurement alone, blah blah …"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="/kalman-filter.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2017-01-19 00:00:00-08:00"/>
+<meta property="article:modified_time" content=""/>
+<meta property="article:author" content="/author/mo.html">
+<meta property="article:section" content="python"/>
+<meta property="og:image" content="https://avatars3.githubusercontent.com/u/2981167?v=3&s=460">
+
+  <title>Machine Learning Study Blog &ndash; Kalman Filter</title>
+
+</head>
+<body>
+  <aside>
+    <div>
+      <a href="">
+        <img src="https://avatars3.githubusercontent.com/u/2981167?v=3&s=460" alt="ML Study Blog" title="ML Study Blog">
+      </a>
+      <h1><a href="">ML Study Blog</a></h1>
+
+
+      <nav>
+        <ul class="list">
+          <li><a href="/pages/about.html#about">about</a></li>
+
+        </ul>
+      </nav>
+
+      <ul class="social">
+        <li><a class="sc-GITHUB" href="http://github.com/kkweon" target="_blank"><i class="fa fa-GITHUB"></i></a></li>
+        <li><a class="sc-Facebook" href="http://facebook.com/kkweon" target="_blank"><i class="fa fa-Facebook"></i></a></li>
+      </ul>
+    </div>
+
+
+  </aside>
+  <main>
+
+    <nav>
+      <a href="">    Home
+</a>
+
+      <a href="/archives.html">Archives</a>
+      <a href="/categories.html">Categories</a>
+      <a href="/tags.html">Tags</a>
+
+      <a href="/feeds/all.atom.xml">    Atom
+</a>
+
+      <a href="/feeds/all.rss.xml">    RSS
+</a>
+    </nav>
+
+<article class="single">
+  <header>
+    <h1 id="kalman-filter">Kalman&nbsp;Filter</h1>
+    <p>
+          Posted on Thu 19 January 2017 in <a href="/category/python.html">python</a>
+
+
+    </p>
+  </header>
+
+
+  <div>
+    <h2>Definition</h2>
+<p><strong>Kalman filtering, also known as linear quadratic estimation (<span class="caps">LQE</span>), is an algorithm</strong> that uses a series of measurements observed over time, containing statistical noise and other inaccuracies, and produces estimates of unknown variables that tend to be more precise than those based on a single measurement alone, blah blah (according to <a href="https://en.wikipedia.org/wiki/Kalman_filter">Wikipedia</a>)</p>
+<p>Simply put, Kalman Filter is used&nbsp;when</p>
+<ul>
+<li>you have a series of measurements with noise or changing over&nbsp;time</li>
+<li>you want to find true states of something (usually a&nbsp;robot)</li>
+</ul>
+<h2>Flowchart of Kalman&nbsp;Filter</h2>
+<p><img src="/images/kalman_filter/basic_concept.png" width="900"></p>
+<ol>
+<li>By linear dynamics, we can predict the object&#8217;s states(location, velocity, etc). For example,<ul>
+<li><span class="math">\(x = x + velocity \cdot t + \frac{1}{2} \cdot acceleration \cdot&nbsp;t^2\)</span></li>
+<li>where <span class="math">\(x\)</span> is a location <span class="math">\(t\)</span> is time, say, in&nbsp;seconds</li>
+</ul>
+</li>
+<li>Compute Kalman Gain, which is simply <div class="math">$$\frac{E_{estimate}}{E_{estimate} + E_{measurement}}$$</div>
+</li>
+<li>Kalman Gain tells us that if it is close to 1, there is nearly no error in measurement. Hence, we can trust measurement data. If it approaches 0, it means there is a huge error in measurement. So, we should not trust&nbsp;measurement</li>
+<li>By multiplying Kalman Gain to the difference between measurement and predicted states, we update <strong>the true states</strong> of the&nbsp;object</li>
+</ol>
+<h2>Pseudo-Code</h2>
+<p>There are <strong>1) predict step</strong> and <strong>2) update step</strong>.</p>
+<h4>Predict&nbsp;Step</h4>
+<ul>
+<li><span class="math">\(X_k = F_k \cdot X_{k-1} + B_k \cdot&nbsp;u_k\)</span></li>
+<li><span class="math">\(P_k = F_k \cdot P_{k-1} \cdot F_k^T +&nbsp;Q_{k-1}\)</span></li>
+</ul>
+<p>where <span class="math">\(X_k\)</span> means the (predicted) states of the object at time <span class="math">\(k\)</span>. <span class="math">\(u_k\)</span> means external forces like constant acceleration or gravity or friction&nbsp;etc.</p>
+<h4>Update&nbsp;Step</h4>
+<ul>
+<li><span class="math">\(y_k = z_k - H_k \cdot&nbsp;X_k\)</span></li>
+<li><span class="math">\(S_k = H_k \cdot P_k H_k^T +&nbsp;R_k\)</span></li>
+<li><span class="math">\(K_k = P_k \cdot H_k^T&nbsp;S_k^{-1}\)</span></li>
+<li><span class="math">\(X_k = X_k + K_k \cdot&nbsp;y_k\)</span></li>
+<li><span class="math">\(P_k = (I - K_k H_k)&nbsp;P_k\)</span></li>
+</ul>
+<h2>Implementation</h2>
+<p>Although it is incomplete, I am working on creating Kalman filter examples in this <a href="https://github.com/kkweon/kalman-filter-tutorial">repo</a>.</p>
+<h2>References</h2>
+<p>I found the following references are good intro to Kalman Filter and&nbsp;Exmples.</p>
+<p>[1] Michel van Biezen, <a href="https://www.youtube.com/watch?v=CaCcOwJPytQ">Special Topics - The Kalman Filter</a><br>
+[2] Wikipedia, <a href="https://en.wikipedia.org/wiki/Kalman_filter">Kalman&nbsp;Filter</a></p>
+<script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width < 768) ? "left" : align;
+        indent = (screen.width < 768) ? "0em" : indent;
+        linebreak = (screen.width < 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+</script>
+  </div>
+  <div class="tag-cloud">
+    <p>
+    </p>
+  </div>
+
+
+
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'kyungmokweon';
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>
+        Please enable JavaScript to view comments.
+
+</noscript>
+</article>
+
+    <footer>
+<p>
+  &copy; Mo  - This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
+</p>
+<p>    Powered by <a href="http://getpelican.com" target="_blank">Pelican</a> - <a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex</a> theme by <a href="http://alexandrevicenzi.com" target="_blank">Alexandre Vicenzi</a>
+</p><p>
+  <a rel="license"
+     href="http://creativecommons.org/licenses/by-sa/4.0/"
+     target="_blank">
+    <img alt="Creative Commons License"
+         title="Creative Commons License"
+         style="border-width:0"
+         src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"
+         width="80"
+         height="15"/>
+  </a>
+</p>    </footer>
+  </main>
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " Machine Learning Study Blog ",
+  "url" : "",
+  "image": "https://avatars3.githubusercontent.com/u/2981167?v=3&s=460",
+  "description": "What I learn today"
+}
+</script>
+</body>
+</html>
