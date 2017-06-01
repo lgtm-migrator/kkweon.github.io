@@ -73,8 +73,9 @@ LINKS = (
 
 # Social widget
 SOCIAL = (
-    ('GITHUB', 'http://github.com/kkweon'),
-    ('Facebook', 'http://facebook.com/kkweon'),
+    ('github', 'http://github.com/kkweon'),
+    ('facebook', 'http://facebook.com/kkweon'),
+    ('rss', 'http://kkweon.github.io/feeds/all.atom.xml'),
 )
 
 DEFAULT_PAGINATION = 5
