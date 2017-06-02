@@ -99,6 +99,69 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <article>
   <header>
+    <h2><a href="https://kkweon.github.io/policy-gradient.html#policy-gradient">Policy&nbsp;Gradient</a></h2>
+    <p>
+          Posted on Thu 01 June 2017 in <a href="https://kkweon.github.io/category/python.html">python</a>
+
+
+          &#8226;     Tagged with
+
+              <a href="https://kkweon.github.io/tag/jupyter-notebook.html">Jupyter Notebook</a>
+    </p>
+  </header>
+  <div>
+      
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Policy-Gradient">Policy Gradient<a class="anchor-link" href="#Policy-Gradient">¶</a></h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Policy란?">Policy란?<a class="anchor-link" href="#Policy란?">¶</a></h2><p>State이 주어졌을 때 어떤 Action을 취할&nbsp;것인가?</p>
+<p>state을 action으로 바꿔주는&nbsp;함수</p>
+$$action = f(state)$$
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>하지만 보통 &#8220;Deterministic Policy&#8221;가 아닌 &#8220;Stochastic Policy&#8221;를&nbsp;가정</p>
+$$P(action_t \mid state_t) = \pi(a \mid s)$$
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Stochastic-Policy">Stochastic Policy<a class="anchor-link" href="#Stochastic-Policy">¶</a></h2><p>State을 인풋으로 받고 Action 확률을 돌려주는&nbsp;함수(function)</p>
+\begin{align*}
+P(왼쪽\ |\ state) &= 0.7 &#92;
+P(오른쪽\ |\ state) &= 0.2 &#92;
+P(위\ |\ state) &= 0.1 &#92;
+P(아래\ |\ state) &= 0.0 &#92;
+\end{align*}
+</div>
+      <br>
+      <a class="btn" href="https://kkweon.github.io/policy-gradient.html#policy-gradient">    Continue reading
+</a>
+  </div>
+  <hr />
+</article>
+<article>
+  <header>
     <h2><a href="https://kkweon.github.io/python-docstyle-guide.html#python-docstyle-guide">파이썬 (doc) 스타일 가이드에 대한&nbsp;정리</a></h2>
     <p>
           Posted on Wed 24 May 2017 in <a href="https://kkweon.github.io/category/python.html">python</a>
@@ -211,25 +274,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <li>Solve …</li></ol>
       <br>
       <a class="btn" href="https://kkweon.github.io/smoothing-path-pid-control.html#smoothing-path-pid-control">    Continue reading
-</a>
-  </div>
-  <hr />
-</article>
-<article>
-  <header>
-    <h2><a href="https://kkweon.github.io/how-to-read-papers.html#how-to-read-papers">How to read&nbsp;papers</a></h2>
-    <p>
-          Posted on Mon 19 December 2016 in <a href="https://kkweon.github.io/category/misc.html">misc</a>
-
-
-
-    </p>
-  </header>
-  <div>
-      <p>Recently I have been reading many papers in <span class="caps">AI</span>, <span class="caps">ML</span>, and <span class="caps">DL</span>. One day I was curious if there are some proper ways to read papers. So, I googled it and found <a href="http://ccr.sigcomm.org/online/files/p83-keshavA.pdf">this article</a> by S. Keshav is very helpful. Here is the summary of the article<sup id="ref1"><a href="#ft1">1</a></sup>.</p>
-<h3>Three pass …</h3>
-      <br>
-      <a class="btn" href="https://kkweon.github.io/how-to-read-papers.html#how-to-read-papers">    Continue reading
 </a>
   </div>
 </article>

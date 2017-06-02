@@ -99,6 +99,36 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <article>
   <header>
+    <h2><a href="https://kkweon.github.io/resampling-wheel-algorithm.html#resampling-wheel-algorithm">Resampling Wheel&nbsp;Algorithm</a></h2>
+    <p>
+          Posted on Mon 12 December 2016 in <a href="https://kkweon.github.io/category/python.html">python</a>
+
+
+
+    </p>
+  </header>
+  <div>
+      <p>Particle Filter들을 P 분포에 대해서 Random Sampling 하는 알고리즘
+완전한 랜덤보다 X, Y와 비슷한 값을&nbsp;준다</p>
+<h2>Resampling Wheel&nbsp;Pseudocode</h2>
+<div class="highlight"><pre><span></span>index = U[1, N]
+beta = 0
+max_w = max(w)
+
+for i = [1, N]:
+    beta = beta + U[0, 2*max_w]
+
+    while beta &gt; w[index]:
+        beta = beta - w[index]
+        index = (index + 1) % N …</pre></div>
+      <br>
+      <a class="btn" href="https://kkweon.github.io/resampling-wheel-algorithm.html#resampling-wheel-algorithm">    Continue reading
+</a>
+  </div>
+  <hr />
+</article>
+<article>
+  <header>
     <h2><a href="https://kkweon.github.io/knn-cs231n-lecture-2.html#knn-cs231n-lecture-2"><span class="caps">KNN</span> CS231n&nbsp;Lecture</a></h2>
     <p>
           Posted on Sun 31 July 2016 in <a href="https://kkweon.github.io/category/python.html">python</a>

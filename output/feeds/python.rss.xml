@@ -1,5 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Machine Learning Study Blog - python</title><link>https://kkweon.github.io/</link><description>I write what I have learned today</description><lastBuildDate>Wed, 24 May 2017 10:20:00 -0700</lastBuildDate><item><title>파이썬 (doc) 스타일 가이드에 대한 정리</title><link>https://kkweon.github.io/python-docstyle-guide.html</link><description>&lt;p&gt;최근에 여러 사람들이랑 스타일가이드 얘기를 나누면서
+<rss version="2.0"><channel><title>Machine Learning Study Blog - python</title><link>https://kkweon.github.io/</link><description>I write what I have learned today</description><lastBuildDate>Thu, 01 Jun 2017 00:00:00 -0700</lastBuildDate><item><title>Policy Gradient</title><link>https://kkweon.github.io/policy-gradient.html</link><description>
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h1 id="Policy-Gradient"&gt;Policy Gradient&lt;a class="anchor-link" href="#Policy-Gradient"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h2 id="Policy란?"&gt;Policy란?&lt;a class="anchor-link" href="#Policy란?"&gt;¶&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;State이 주어졌을 때 어떤 Action을 취할&amp;nbsp;것인가?&lt;/p&gt;
+&lt;p&gt;state을 action으로 바꿔주는&amp;nbsp;함수&lt;/p&gt;
+$$action = f(state)$$
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;하지만 보통 &amp;#8220;Deterministic Policy&amp;#8221;가 아닌 &amp;#8220;Stochastic Policy&amp;#8221;를&amp;nbsp;가정&lt;/p&gt;
+$$P(action_t \mid state_t) = \pi(a \mid s)$$
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h2 id="Stochastic-Policy"&gt;Stochastic Policy&lt;a class="anchor-link" href="#Stochastic-Policy"&gt;¶&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;State을 인풋으로 받고 Action 확률을 돌려주는&amp;nbsp;함수(function)&lt;/p&gt;
+\begin{align*}
+P(왼쪽\ |\ state) &amp;= 0.7 &amp;#92;
+P(오른쪽\ |\ state) &amp;= 0.2 &amp;#92;
+P(위\ |\ state) &amp;= 0.1 &amp;#92;
+P(아래\ |\ state) &amp;= 0.0 &amp;#92;
+\end{align*}
+&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mo</dc:creator><pubDate>Thu, 01 Jun 2017 00:00:00 -0700</pubDate><guid isPermaLink="false">tag:kkweon.github.io,2017-06-01:/policy-gradient.html</guid><category>Jupyter Notebook</category></item><item><title>파이썬 (doc) 스타일 가이드에 대한 정리</title><link>https://kkweon.github.io/python-docstyle-guide.html</link><description>&lt;p&gt;최근에 여러 사람들이랑 스타일가이드 얘기를 나누면서
 또 이전에 여러 초고수분들에게 들으면서 배웠던게 생각나
 되돌아보며 정리해볼까 해서 작성한&amp;nbsp;글이다.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;왜 스타일 가이드인가?&lt;/strong&gt;
