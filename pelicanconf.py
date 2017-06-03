@@ -80,7 +80,7 @@ SOCIAL = (
     ('rss', 'http://kkweon.github.io/feeds/all.atom.xml'),
 )
 
-DEFAULT_PAGINATION = 5
+DEFAULT_PAGINATION = 10
 USE_FOLDER_AS_CATEGORY = True
 
 # Markup
@@ -112,3 +112,5 @@ EXTRA_PATH_METADATA = {
 }
 
 CUSTOM_CSS = 'static/mo.css'
+ADD_THIS_ID = "ra-5932152d13edaf2f"
+
