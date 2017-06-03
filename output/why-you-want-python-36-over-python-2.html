@@ -1,0 +1,238 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="https://kkweon.github.io/theme/stylesheet/style.min.css">
+
+  <link rel="stylesheet" type="text/css" href="https://kkweon.github.io/theme/pygments/default.min.css">
+  <link rel="stylesheet" type="text/css" href="https://kkweon.github.io/theme/font-awesome/css/font-awesome.min.css">
+
+    <link href="https://kkweon.github.io/static/mo.css" rel="stylesheet">
+
+    <link href="https://kkweon.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Machine Learning Study Blog Atom">
+
+    <link href="https://kkweon.github.io/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="Machine Learning Study Blog RSS">
+
+    <link rel="shortcut icon" href="https://kkweon.github.io/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="https://kkweon.github.io/images/favicon.ico" type="image/x-icon">
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow" />
+
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#333">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#333">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+<meta name="author" content="Mo" />
+<meta name="description" content="When I say Python 3, I am referring to Python 3.6 because Python 3.6 is the current latest version as of today. For Python2, of course I’m referring to Python 2.7.x (it’s scheduled to discontinue by 2020). But, I’m not talking about the …" />
+<meta name="keywords" content="">
+<meta property="og:site_name" content="Machine Learning Study Blog"/>
+<meta property="og:title" content="Why you want Python 3.6 over Python 2"/>
+<meta property="og:description" content="When I say Python 3, I am referring to Python 3.6 because Python 3.6 is the current latest version as of today. For Python2, of course I’m referring to Python 2.7.x (it’s scheduled to discontinue by 2020). But, I’m not talking about the …"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="https://kkweon.github.io/why-you-want-python-36-over-python-2.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2017-06-02 20:00:00-07:00"/>
+<meta property="article:modified_time" content=""/>
+<meta property="article:author" content="https://kkweon.github.io/author/mo.html">
+<meta property="article:section" content="python"/>
+<meta property="og:image" content="https://avatars3.githubusercontent.com/u/2981167?v=3&s=460">
+
+  <title>Machine Learning Study Blog &ndash; Why you want Python 3.6 over Python 2</title>
+
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-ABCDEF"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-ABCDEF');</script>
+<!-- End Google Tag Manager -->  <aside>
+    <div>
+      <a href="https://kkweon.github.io">
+        <img src="https://avatars3.githubusercontent.com/u/2981167?v=3&s=460" alt="ML Study Blog" title="ML Study Blog">
+      </a>
+      <h1><a href="https://kkweon.github.io">ML Study Blog</a></h1>
+
+<p>I write what I have learned today</p>
+      <nav>
+        <ul class="list">
+          <li><a href="https://kkweon.github.io/pages/about.html#about">about</a></li>
+
+        </ul>
+      </nav>
+
+      <ul class="social">
+        <li><a class="sc-github" href="http://github.com/kkweon" target="_blank"><i class="fa fa-github"></i></a></li>
+        <li><a class="sc-facebook" href="http://facebook.com/kkweon" target="_blank"><i class="fa fa-facebook"></i></a></li>
+        <li><a class="sc-rss" href="http://kkweon.github.io/feeds/all.atom.xml" target="_blank"><i class="fa fa-rss"></i></a></li>
+      </ul>
+    </div>
+
+
+  </aside>
+  <main>
+
+    <nav>
+      <a href="https://kkweon.github.io">    Home
+</a>
+
+      <a href="/archives.html">Archives</a>
+      <a href="/categories.html">Categories</a>
+      <a href="/tags.html">Tags</a>
+
+      <a href="https://kkweon.github.io/feeds/all.atom.xml">    Atom
+</a>
+
+      <a href="https://kkweon.github.io/feeds/all.rss.xml">    RSS
+</a>
+    </nav>
+
+<article class="single">
+  <header>
+    <h1 id="why-you-want-python-36-over-python-2">Why you want Python 3.6 over Python&nbsp;2</h1>
+    <p>
+          Posted on Fri 02 June 2017 in <a href="https://kkweon.github.io/category/python.html">python</a>
+
+
+    </p>
+  </header>
+
+
+  <div>
+    <p>When I say Python 3, I am referring to Python 3.6 because Python 3.6 is the current latest version as of today. For Python2, of course I&#8217;m referring to Python 2.7.x (it&#8217;s scheduled to discontinue by 2020). But, I&#8217;m not talking about the unicode support or integer division or print function difference because you should already know&nbsp;this.</p>
+<h2>F-String</h2>
+<p>In Python 3.6, a new feature called &#8220;F-string&#8221; was introduced.<br>
+This is so much cleaner(readable) than <code>print("{} is a Friday!".format(today)</code></p>
+<div class="highlight"><pre><span></span><span class="n">today</span> <span class="o">=</span> <span class="s2">&quot;2017-06-02&quot;</span>
+<span class="k">print</span><span class="p">(</span><span class="n">f</span><span class="s2">&quot;{today} is a Friday!&quot;</span><span class="p">)</span>
+</pre></div>
+
+
+<h2>Number&nbsp;Underscores</h2>
+<p>Have you ever counted the number of digits in your code?
+In Python3.6, an underscore is allowed to annotate a thousand&nbsp;seperator.</p>
+<div class="highlight"><pre><span></span><span class="n">one_million</span> <span class="o">=</span> <span class="mi">1</span><span class="n">_000_000</span>
+<span class="n">one_billion</span> <span class="o">=</span> <span class="mi">1</span><span class="n">_000_000_000</span>
+</pre></div>
+
+
+<h2>Variable&nbsp;Annotations</h2>
+<p>Python is a dynamically typed language. It means you don&#8217;t have to declare a variable type. But, it alsot means you need to create your own way of type-checking. Sometimes, when I use other people&#8217; codes, I am so confused when there is no docstring for which parameters that its function&nbsp;requires.</p>
+<div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">add_integers</span><span class="p">(</span><span class="n">num1</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">num2</span><span class="p">:</span> <span class="nb">int</span><span class="p">):</span>
+    <span class="k">assert</span> <span class="nb">type</span><span class="p">(</span><span class="n">num1</span><span class="p">)</span> <span class="o">==</span> <span class="nb">int</span> <span class="ow">and</span> <span class="nb">type</span><span class="p">(</span><span class="n">num2</span><span class="p">)</span> <span class="o">==</span> <span class="nb">int</span><span class="p">,</span> <span class="s2">&quot;Integer is required&quot;</span>
+    <span class="k">return</span> <span class="n">num1</span> <span class="o">+</span> <span class="n">num2</span>
+</pre></div>
+
+
+<p>You can use <code>mypy your_python_file.py</code> to do a quick type-check as&nbsp;well.</p>
+<h2>Science&nbsp;Community</h2>
+<p>This is not a feature nor about Python 3.6. But rather it&#8217;s a statement.<br>
+Science community plays a very important role in&nbsp;Python.</p>
+<p>I believe the science stack of Python&#8217;s one of the reasons how Python became this&nbsp;popular.</p>
+<p>What people don&#8217;t know&nbsp;is </p>
+<p>the following great science libraries have already moved to Python 3.
+Most of these libraries have already stopped supporting Python 2.
+If not, they have stopped adding new features in Python&nbsp;2.</p>
+<p>Who cares? It&#8217;s going to discontinue in 2020&nbsp;anyway.</p>
+<ul>
+<li>iPython</li>
+<li>Jupyter&nbsp;Notebook</li>
+<li>Pandas </li>
+<li>Matplotlib</li>
+<li>Sympy</li>
+<li>CPython</li>
+<li>and <a href="http://www.python3statement.org/">More</a></li>
+</ul>
+<h2>Conclusion</h2>
+<p>I missed many many more important features (such as Lazy Evaluations, Unicode Support, Better Async, Better exception, Better <span class="caps">OOP</span>, etc), but I hope you understand why you should stop using Python&nbsp;2.</p>
+<p>If you have to touch the legacy codebase written in Python2, yes you can use&nbsp;Python2.</p>
+<p>If you start a new project, please do use Python&nbsp;3.</p>
+  </div>
+  <div class="tag-cloud">
+    <p>
+    </p>
+  </div>
+
+  <div class="center social-share">
+    <p>    Like this article? Share it with your friends!
+</p>
+    <div class="addthis_native_toolbox"></div>
+    <div class="addthis_sharing_toolbox"></div>
+  </div>
+
+
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'kyungmokweon';
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>
+        Please enable JavaScript to view comments.
+
+</noscript>
+</article>
+
+    <footer>
+<p>
+  &copy; Mo 2017 - This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
+</p>
+<p>    Powered by <a href="http://getpelican.com" target="_blank">Pelican</a> - <a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex</a> theme by <a href="http://alexandrevicenzi.com" target="_blank">Alexandre Vicenzi</a>
+</p><p>
+  <a rel="license"
+     href="http://creativecommons.org/licenses/by-sa/4.0/"
+     target="_blank">
+    <img alt="Creative Commons License"
+         title="Creative Commons License"
+         style="border-width:0"
+         src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"
+         width="80"
+         height="15"/>
+  </a>
+</p>    </footer>
+  </main>
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-69116729-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5932152d13edaf2f" async="async"></script>
+
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " Machine Learning Study Blog ",
+  "url" : "https://kkweon.github.io",
+  "image": "https://avatars3.githubusercontent.com/u/2981167?v=3&s=460",
+  "description": "What I learn today"
+}
+</script>
+</body>
+</html>

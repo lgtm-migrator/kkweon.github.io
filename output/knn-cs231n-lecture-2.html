@@ -131,7 +131,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <span class="k">for</span> <span class="nb">file</span> <span class="ow">in</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">CIFAR_DATASETS_PATH</span><span class="p">):</span>
     <span class="n">fileList</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">CIFAR_DATASETS_PATH</span> <span class="o">+</span> <span class="nb">file</span><span class="p">)</span>
 
-
 <span class="c1"># 0 -&gt; label</span>
 <span class="c1"># 1:5 -&gt; Train Set</span>
 <span class="c1"># 7 -&gt; Test Set</span>
@@ -156,7 +155,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="nb">file</span><span class="p">,</span> <span class="s1">&#39;rb&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
         <span class="n">data</span> <span class="o">=</span> <span class="n">pickle</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">&#39;bytes&#39;</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">data</span>
-
 
 <span class="k">def</span> <span class="nf">load_multiple_data</span><span class="p">(</span><span class="n">fileList</span><span class="p">):</span>
     <span class="n">X</span><span class="p">,</span> <span class="n">Y</span> <span class="o">=</span> <span class="p">[],</span> <span class="p">[]</span>
@@ -212,7 +210,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <span class="k">def</span> <span class="nf">train</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">X</span><span class="p">,</span> <span class="n">Y</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">Xtr</span> <span class="o">=</span> <span class="n">X</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">Ytr</span> <span class="o">=</span> <span class="n">Y</span>
-
 
     <span class="k">def</span> <span class="nf">predict</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">X</span><span class="p">,</span> <span class="n">k</span><span class="o">=</span><span class="mi">1</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;</span>
@@ -291,10 +288,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <span class="n">Accuracy</span><span class="o">:</span> <span class="mf">0.0</span><span class="o">%</span>
 <span class="o">=================</span>
 
-
-
-
-
 <span class="mf">0.0</span>
 </pre></div>
 
@@ -316,10 +309,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <span class="o">=================</span>
 <span class="n">Accuracy</span><span class="o">:</span> <span class="mf">20.0</span><span class="o">%</span>
 <span class="o">=================</span>
-
-
-
-
 
 <span class="mf">0.20000000000000001</span>
 </pre></div>
@@ -348,10 +337,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <span class="n">Accuracy</span><span class="o">:</span> <span class="mf">100.0</span><span class="o">%</span>
 <span class="o">=================</span>
 
-
-
-
-
 <span class="mf">1.0</span>
 </pre></div>
 
@@ -373,10 +358,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <span class="o">=================</span>
 <span class="n">Accuracy</span><span class="o">:</span> <span class="mf">40.0</span><span class="o">%</span>
 <span class="o">=================</span>
-
-
-
-
 
 <span class="mf">0.40000000000000002</span>
 </pre></div>

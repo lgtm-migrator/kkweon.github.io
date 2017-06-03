@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 # Set to False when Publish
-RELATIVE_URLS = False
+RELATIVE_URLS = True
 
 AUTHOR = 'Mo'
 SITENAME = 'Machine Learning Study Blog'
