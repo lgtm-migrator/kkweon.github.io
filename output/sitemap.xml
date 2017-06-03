@@ -5,35 +5,35 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://kkweon.github.io/</loc>
-<lastmod>2017-06-01T23:59:33-00:00</lastmod>
+<lastmod>2017-06-02T19:20:59-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
 <loc>https://kkweon.github.io/archives.html</loc>
-<lastmod>2017-06-01T23:59:33-00:00</lastmod>
+<lastmod>2017-06-02T19:20:59-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
 <loc>https://kkweon.github.io/tags.html</loc>
-<lastmod>2017-06-01T23:59:33-00:00</lastmod>
+<lastmod>2017-06-02T19:20:59-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
 <loc>https://kkweon.github.io/categories.html</loc>
-<lastmod>2017-06-01T23:59:33-00:00</lastmod>
+<lastmod>2017-06-02T19:20:59-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
 <loc>https://kkweon.github.io/pages/about.html</loc>
-<lastmod>2017-06-01T23:59:33-00:00</lastmod>
+<lastmod>2017-06-02T19:20:59-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>

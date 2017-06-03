@@ -97,9 +97,11 @@ def add_two_numbers(number1, number2):
 ```python
 def add_two_numbers(number1, number2):
     """Returns the sum of two numbers
+
     Args:
         number1 (int): First number to add
         number2 (int): Second number to add
+        
     Returns:
         int: Sum of `number1` and `number2`
    """

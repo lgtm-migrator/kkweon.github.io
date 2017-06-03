@@ -14,6 +14,8 @@ SITEURL = 'https://kkweon.github.io'
 # SITELOGO = SITEURL + '/images/profile.png'
 SITELOGO = "https://avatars3.githubusercontent.com/u/2981167?v=3&s=460"
 FAVICON = SITEURL + '/images/favicon.ico'
+PYGMENTS_STYLE = 'default'
+
 
 # THEME
 BROWSER_COLOR = '#333'
@@ -104,4 +106,9 @@ MONTH_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/{date:%b}/index.html'
 
 RMD_READER_RENAME_PLOT = 'directory'
 RMD_READER_KNITR_OPTS_CHUNK = {'fig.path': 'figure/'}
-STATIC_PATHS = ['figure', 'images']
+STATIC_PATHS = ['figure', 'images', 'static']
+EXTRA_PATH_METADATA = {
+    'static/css/mo.css': {'path': 'static/mo.css'},
+}
+
+CUSTOM_CSS = 'static/mo.css'

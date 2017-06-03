@@ -6,9 +6,10 @@
 
     <link rel="stylesheet" type="text/css" href="https://kkweon.github.io/theme/stylesheet/style.min.css">
 
-  <link rel="stylesheet" type="text/css" href="https://kkweon.github.io/theme/pygments/github.min.css">
+  <link rel="stylesheet" type="text/css" href="https://kkweon.github.io/theme/pygments/default.min.css">
   <link rel="stylesheet" type="text/css" href="https://kkweon.github.io/theme/font-awesome/css/font-awesome.min.css">
 
+    <link href="https://kkweon.github.io/static/mo.css" rel="stylesheet">
 
     <link href="https://kkweon.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Machine Learning Study Blog Atom">
 
@@ -171,8 +172,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </pre></div>
 
 
-<p>들여쓰기는 스페이스 4칸이라던지 더 많이 있지만&#8230; 더 자세한건 공홈에서 확인해 볼 수 있다.<br>
-</p>
+<p>들여쓰기는 스페이스 4칸이라던지 더 많이 있지만&#8230; 더 자세한건 공홈에서 확인해 볼 수&nbsp;있다.  </p>
 <h2><a href="https://google.github.io/styleguide/pyguide.html"><strong>Google Python Style&nbsp;Guide</strong></a></h2>
 <p>PEP8과 거의 유사하다.
 구글 프로젝트 (Tensorflow) 때문에 가장 요즘 많이 접하게 된다.
@@ -186,9 +186,11 @@ PEP8과 비교해서 가장 다른 점은 “Docstring”을 작성하는 법에
 <p>라는 함수가 있으면 아래와 같이 docstring을&nbsp;작성한다.</p>
 <div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">add_two_numbers</span><span class="p">(</span><span class="n">number1</span><span class="p">,</span> <span class="n">number2</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Returns the sum of two numbers</span>
+
 <span class="sd">    Args:</span>
 <span class="sd">        number1 (int): First number to add</span>
 <span class="sd">        number2 (int): Second number to add</span>
+
 <span class="sd">    Returns:</span>
 <span class="sd">        int: Sum of `number1` and `number2`</span>
 <span class="sd">   &quot;&quot;&quot;</span>
