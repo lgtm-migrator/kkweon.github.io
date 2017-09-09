@@ -5,3 +5,12 @@
 #TOC {
     text-align: left;
 }
+
+aside {
+    display: none;
+}
+
+main {
+    width: 50%;
+    left: 25%;
+}
