@@ -1,5 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Machine Learning Study Blog - misc</title><link href="https://kkweon.github.io/" rel="alternate"></link><link href="https://kkweon.github.io/feeds/misc.atom.xml" rel="self"></link><id>https://kkweon.github.io/</id><updated>2016-12-19T00:00:00-08:00</updated><entry><title>How to read papers</title><link href="https://kkweon.github.io/how-to-read-papers.html" rel="alternate"></link><published>2016-12-19T00:00:00-08:00</published><updated>2016-12-19T00:00:00-08:00</updated><author><name>Mo</name></author><id>tag:kkweon.github.io,2016-12-19:/how-to-read-papers.html</id><summary type="html">&lt;p&gt;Recently I have been reading many papers in &lt;span class="caps"&gt;AI&lt;/span&gt;, &lt;span class="caps"&gt;ML&lt;/span&gt;, and &lt;span class="caps"&gt;DL&lt;/span&gt;. One day I was curious if there are some proper ways to read papers. So, I googled it and found &lt;a href="http://ccr.sigcomm.org/online/files/p83-keshavA.pdf"&gt;this article&lt;/a&gt; by S. Keshav is very helpful. Here is the summary of the article&lt;sup id="ref1"&gt;&lt;a href="#ft1"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Machine Learning Study Blog - misc</title><link href="https://kkweon.github.io/" rel="alternate"></link><link href="https://kkweon.github.io/feeds/misc.atom.xml" rel="self"></link><id>https://kkweon.github.io/</id><updated>2017-09-09T00:00:00-07:00</updated><entry><title>Org Mode Test</title><link href="https://kkweon.github.io/org-mode-test.html" rel="alternate"></link><published>2017-09-09T00:00:00-07:00</published><updated>2017-09-09T00:00:00-07:00</updated><author><name>Mo</name></author><id>tag:kkweon.github.io,2017-09-09:/org-mode-test.html</id><summary type="html">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;meta charset="utf-8"&gt;
+  &lt;meta name="generator" content="pandoc"&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"&gt;
+  &lt;title&gt;&lt;/title&gt;
+  &lt;style type="text/css"&gt;code{white-space: pre;}&lt;/style&gt;
+  &lt;style type="text/css"&gt;
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; background-color: #2a211c; color: #bdae9d; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; background-color: #2a211c; color: #bdae9d; border-right: 1px solid #bdae9d; }
+td …&lt;/style&gt;&lt;/meta&gt;&lt;/meta&gt;&lt;/meta&gt;&lt;/head&gt;&lt;/html&gt;</summary><content type="html">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;meta charset="utf-8"&gt;
+  &lt;meta name="generator" content="pandoc"&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"&gt;
+  &lt;title&gt;&lt;/title&gt;
+  &lt;style type="text/css"&gt;code{white-space: pre;}&lt;/style&gt;
+  &lt;style type="text/css"&gt;
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; background-color: #2a211c; color: #bdae9d; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; background-color: #2a211c; color: #bdae9d; border-right: 1px solid #bdae9d; }
+td.sourceCode { padding-left: 5px; }
+pre, code { color: #bdae9d; background-color: #2a211c; }
+code &gt; span.kw { color: #43a8ed; font-weight: bold; } /* Keyword */
+code &gt; span.dt { text-decoration: underline; } /* DataType */
+code &gt; span.dv { color: #44aa43; } /* DecVal */
+code &gt; span.bn { color: #44aa43; } /* BaseN */
+code &gt; span.fl { color: #44aa43; } /* Float */
+code &gt; span.ch { color: #049b0a; } /* Char */
+code &gt; span.st { color: #049b0a; } /* String */
+code &gt; span.co { color: #0066ff; font-style: italic; } /* Comment */
+code &gt; span.al { color: #ffff00; } /* Alert */
+code &gt; span.fu { color: #ff9358; font-weight: bold; } /* Function */
+code &gt; span.er { color: #ffff00; font-weight: bold; } /* Error */
+code &gt; span.wa { color: #ffff00; font-weight: bold; } /* Warning */
+code &gt; span.cn { } /* Constant */
+code &gt; span.sc { color: #049b0a; } /* SpecialChar */
+code &gt; span.vs { color: #049b0a; } /* VerbatimString */
+code &gt; span.ss { color: #049b0a; } /* SpecialString */
+code &gt; span.im { } /* Import */
+code &gt; span.va { } /* Variable */
+code &gt; span.cf { color: #43a8ed; font-weight: bold; } /* ControlFlow */
+code &gt; span.op { } /* Operator */
+code &gt; span.bu { } /* BuiltIn */
+code &gt; span.ex { } /* Extension */
+code &gt; span.pp { font-weight: bold; } /* Preprocessor */
+code &gt; span.at { } /* Attribute */
+code &gt; span.do { color: #0066ff; font-style: italic; } /* Documentation */
+code &gt; span.an { color: #0066ff; font-weight: bold; font-style: italic; } /* Annotation */
+code &gt; span.co { color: #0066ff; font-weight: bold; font-style: italic; } /* Comment */
+code &gt; span.in { color: #0066ff; font-weight: bold; font-style: italic; } /* Information */
+  &lt;/style&gt;
+  &lt;!--[if lt IE 9]&gt;
+    &lt;script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"&gt;&lt;/script&gt;
+  &lt;![endif]--&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;nav id="TOC"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#headline-1"&gt;&lt;span class="toc-section-number"&gt;1&lt;/span&gt; Headline 1&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#python-source-code"&gt;&lt;span class="toc-section-number"&gt;1.1&lt;/span&gt; Python Source&amp;nbsp;Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#image-screenshot"&gt;&lt;span class="toc-section-number"&gt;2&lt;/span&gt; Image&amp;nbsp;Screenshot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#quote"&gt;&lt;span class="toc-section-number"&gt;3&lt;/span&gt;&amp;nbsp;Quote&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+&lt;h1 id="headline-1"&gt;&lt;span class="header-section-number"&gt;1&lt;/span&gt; Headline&amp;nbsp;1&lt;/h1&gt;
+&lt;h2 id="python-source-code"&gt;&lt;span class="header-section-number"&gt;1.1&lt;/span&gt; Python Source&amp;nbsp;Code&lt;/h2&gt;
+&lt;div class="sourceCode" rundoc-language="python" rundoc-exports="both" rundoc-results="output"&gt;&lt;pre class="sourceCode python rundoc-block"&gt;&lt;code class="sourceCode python"&gt;&lt;span class="bu"&gt;print&lt;/span&gt;(&lt;span class="st"&gt;&amp;quot;Hello, world!&amp;quot;&lt;/span&gt;)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;pre class="example"&gt;&lt;code&gt;Hello, world!
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id="image-screenshot"&gt;&lt;span class="header-section-number"&gt;2&lt;/span&gt; Image&amp;nbsp;Screenshot&lt;/h1&gt;
+&lt;p&gt;&lt;img src="../images/screenshot.png" /&gt;&lt;/p&gt;
+&lt;h1 id="quote"&gt;&lt;span class="header-section-number"&gt;3&lt;/span&gt;&amp;nbsp;Quote&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;lt;img src=“./Image Screenshot/screenshot&lt;sub&gt;2017&lt;/sub&gt;-09-09&lt;sub&gt;03&lt;/sub&gt;-49-05.png”&amp;nbsp;/&amp;gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content></entry><entry><title>How to read papers</title><link href="https://kkweon.github.io/how-to-read-papers.html" rel="alternate"></link><published>2016-12-19T00:00:00-08:00</published><updated>2016-12-19T00:00:00-08:00</updated><author><name>Mo</name></author><id>tag:kkweon.github.io,2016-12-19:/how-to-read-papers.html</id><summary type="html">&lt;p&gt;Recently I have been reading many papers in &lt;span class="caps"&gt;AI&lt;/span&gt;, &lt;span class="caps"&gt;ML&lt;/span&gt;, and &lt;span class="caps"&gt;DL&lt;/span&gt;. One day I was curious if there are some proper ways to read papers. So, I googled it and found &lt;a href="http://ccr.sigcomm.org/online/files/p83-keshavA.pdf"&gt;this article&lt;/a&gt; by S. Keshav is very helpful. Here is the summary of the article&lt;sup id="ref1"&gt;&lt;a href="#ft1"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 &lt;h3&gt;Three pass …&lt;/h3&gt;</summary><content type="html">&lt;p&gt;Recently I have been reading many papers in &lt;span class="caps"&gt;AI&lt;/span&gt;, &lt;span class="caps"&gt;ML&lt;/span&gt;, and &lt;span class="caps"&gt;DL&lt;/span&gt;. One day I was curious if there are some proper ways to read papers. So, I googled it and found &lt;a href="http://ccr.sigcomm.org/online/files/p83-keshavA.pdf"&gt;this article&lt;/a&gt; by S. Keshav is very helpful. Here is the summary of the article&lt;sup id="ref1"&gt;&lt;a href="#ft1"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 &lt;h3&gt;Three pass&amp;nbsp;approach&lt;/h3&gt;
 &lt;p&gt;S. Keshav introduced the so-called three pass approach. Even though I don&amp;#8217;t write papers, this approach seems to be an instructive guide how I am supposed read papers after trying out &lt;em&gt;the three pass approach&lt;/em&gt; on&amp;nbsp;papers. &lt;/p&gt;

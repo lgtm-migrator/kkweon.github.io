@@ -1,5 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Machine Learning Study Blog</title><link href="https://kkweon.github.io/" rel="alternate"></link><link href="https://kkweon.github.io/feeds/all.atom.xml" rel="self"></link><id>https://kkweon.github.io/</id><updated>2017-06-02T20:00:00-07:00</updated><entry><title>Why you want Python 3.6 over Python 2</title><link href="https://kkweon.github.io/why-you-want-python-36-over-python-2.html" rel="alternate"></link><published>2017-06-02T20:00:00-07:00</published><updated>2017-06-02T20:00:00-07:00</updated><author><name>Mo</name></author><id>tag:kkweon.github.io,2017-06-02:/why-you-want-python-36-over-python-2.html</id><summary type="html">&lt;p&gt;When I say Python 3, I am referring to Python 3.6 because Python 3.6 is the current latest version as of today. For Python2, of course I&amp;#8217;m referring to Python 2.7.x (it&amp;#8217;s scheduled to discontinue by 2020). But, I&amp;#8217;m not talking about the …&lt;/p&gt;</summary><content type="html">&lt;p&gt;When I say Python 3, I am referring to Python 3.6 because Python 3.6 is the current latest version as of today. For Python2, of course I&amp;#8217;m referring to Python 2.7.x (it&amp;#8217;s scheduled to discontinue by 2020). But, I&amp;#8217;m not talking about the unicode support or integer division or print function difference because you should already know&amp;nbsp;this.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Machine Learning Study Blog</title><link href="https://kkweon.github.io/" rel="alternate"></link><link href="https://kkweon.github.io/feeds/all.atom.xml" rel="self"></link><id>https://kkweon.github.io/</id><updated>2017-09-09T00:00:00-07:00</updated><entry><title>Org Mode Test</title><link href="https://kkweon.github.io/org-mode-test.html" rel="alternate"></link><published>2017-09-09T00:00:00-07:00</published><updated>2017-09-09T00:00:00-07:00</updated><author><name>Mo</name></author><id>tag:kkweon.github.io,2017-09-09:/org-mode-test.html</id><summary type="html">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;meta charset="utf-8"&gt;
+  &lt;meta name="generator" content="pandoc"&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"&gt;
+  &lt;title&gt;&lt;/title&gt;
+  &lt;style type="text/css"&gt;code{white-space: pre;}&lt;/style&gt;
+  &lt;style type="text/css"&gt;
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; background-color: #2a211c; color: #bdae9d; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; background-color: #2a211c; color: #bdae9d; border-right: 1px solid #bdae9d; }
+td …&lt;/style&gt;&lt;/meta&gt;&lt;/meta&gt;&lt;/meta&gt;&lt;/head&gt;&lt;/html&gt;</summary><content type="html">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;meta charset="utf-8"&gt;
+  &lt;meta name="generator" content="pandoc"&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"&gt;
+  &lt;title&gt;&lt;/title&gt;
+  &lt;style type="text/css"&gt;code{white-space: pre;}&lt;/style&gt;
+  &lt;style type="text/css"&gt;
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; background-color: #2a211c; color: #bdae9d; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; background-color: #2a211c; color: #bdae9d; border-right: 1px solid #bdae9d; }
+td.sourceCode { padding-left: 5px; }
+pre, code { color: #bdae9d; background-color: #2a211c; }
+code &gt; span.kw { color: #43a8ed; font-weight: bold; } /* Keyword */
+code &gt; span.dt { text-decoration: underline; } /* DataType */
+code &gt; span.dv { color: #44aa43; } /* DecVal */
+code &gt; span.bn { color: #44aa43; } /* BaseN */
+code &gt; span.fl { color: #44aa43; } /* Float */
+code &gt; span.ch { color: #049b0a; } /* Char */
+code &gt; span.st { color: #049b0a; } /* String */
+code &gt; span.co { color: #0066ff; font-style: italic; } /* Comment */
+code &gt; span.al { color: #ffff00; } /* Alert */
+code &gt; span.fu { color: #ff9358; font-weight: bold; } /* Function */
+code &gt; span.er { color: #ffff00; font-weight: bold; } /* Error */
+code &gt; span.wa { color: #ffff00; font-weight: bold; } /* Warning */
+code &gt; span.cn { } /* Constant */
+code &gt; span.sc { color: #049b0a; } /* SpecialChar */
+code &gt; span.vs { color: #049b0a; } /* VerbatimString */
+code &gt; span.ss { color: #049b0a; } /* SpecialString */
+code &gt; span.im { } /* Import */
+code &gt; span.va { } /* Variable */
+code &gt; span.cf { color: #43a8ed; font-weight: bold; } /* ControlFlow */
+code &gt; span.op { } /* Operator */
+code &gt; span.bu { } /* BuiltIn */
+code &gt; span.ex { } /* Extension */
+code &gt; span.pp { font-weight: bold; } /* Preprocessor */
+code &gt; span.at { } /* Attribute */
+code &gt; span.do { color: #0066ff; font-style: italic; } /* Documentation */
+code &gt; span.an { color: #0066ff; font-weight: bold; font-style: italic; } /* Annotation */
+code &gt; span.co { color: #0066ff; font-weight: bold; font-style: italic; } /* Comment */
+code &gt; span.in { color: #0066ff; font-weight: bold; font-style: italic; } /* Information */
+  &lt;/style&gt;
+  &lt;!--[if lt IE 9]&gt;
+    &lt;script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"&gt;&lt;/script&gt;
+  &lt;![endif]--&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;nav id="TOC"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#headline-1"&gt;&lt;span class="toc-section-number"&gt;1&lt;/span&gt; Headline 1&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#python-source-code"&gt;&lt;span class="toc-section-number"&gt;1.1&lt;/span&gt; Python Source&amp;nbsp;Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#image-screenshot"&gt;&lt;span class="toc-section-number"&gt;2&lt;/span&gt; Image&amp;nbsp;Screenshot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#quote"&gt;&lt;span class="toc-section-number"&gt;3&lt;/span&gt;&amp;nbsp;Quote&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+&lt;h1 id="headline-1"&gt;&lt;span class="header-section-number"&gt;1&lt;/span&gt; Headline&amp;nbsp;1&lt;/h1&gt;
+&lt;h2 id="python-source-code"&gt;&lt;span class="header-section-number"&gt;1.1&lt;/span&gt; Python Source&amp;nbsp;Code&lt;/h2&gt;
+&lt;div class="sourceCode" rundoc-language="python" rundoc-exports="both" rundoc-results="output"&gt;&lt;pre class="sourceCode python rundoc-block"&gt;&lt;code class="sourceCode python"&gt;&lt;span class="bu"&gt;print&lt;/span&gt;(&lt;span class="st"&gt;&amp;quot;Hello, world!&amp;quot;&lt;/span&gt;)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;pre class="example"&gt;&lt;code&gt;Hello, world!
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id="image-screenshot"&gt;&lt;span class="header-section-number"&gt;2&lt;/span&gt; Image&amp;nbsp;Screenshot&lt;/h1&gt;
+&lt;p&gt;&lt;img src="../images/screenshot.png" /&gt;&lt;/p&gt;
+&lt;h1 id="quote"&gt;&lt;span class="header-section-number"&gt;3&lt;/span&gt;&amp;nbsp;Quote&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;lt;img src=“./Image Screenshot/screenshot&lt;sub&gt;2017&lt;/sub&gt;-09-09&lt;sub&gt;03&lt;/sub&gt;-49-05.png”&amp;nbsp;/&amp;gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content></entry><entry><title>Why you want Python 3.6 over Python 2</title><link href="https://kkweon.github.io/why-you-want-python-36-over-python-2.html" rel="alternate"></link><published>2017-06-02T20:00:00-07:00</published><updated>2017-06-02T20:00:00-07:00</updated><author><name>Mo</name></author><id>tag:kkweon.github.io,2017-06-02:/why-you-want-python-36-over-python-2.html</id><summary type="html">&lt;p&gt;When I say Python 3, I am referring to Python 3.6 because Python 3.6 is the current latest version as of today. For Python2, of course I&amp;#8217;m referring to Python 2.7.x (it&amp;#8217;s scheduled to discontinue by 2020). But, I&amp;#8217;m not talking about the …&lt;/p&gt;</summary><content type="html">&lt;p&gt;When I say Python 3, I am referring to Python 3.6 because Python 3.6 is the current latest version as of today. For Python2, of course I&amp;#8217;m referring to Python 2.7.x (it&amp;#8217;s scheduled to discontinue by 2020). But, I&amp;#8217;m not talking about the unicode support or integer division or print function difference because you should already know&amp;nbsp;this.&lt;/p&gt;
 &lt;h2&gt;F-String&lt;/h2&gt;
 &lt;p&gt;In Python 3.6, a new feature called &amp;#8220;F-string&amp;#8221; was introduced.&lt;br&gt;
 This is so much cleaner(readable) than &lt;code&gt;print("{} is a Friday!".format(today)&lt;/code&gt;&lt;/p&gt;
@@ -47,8 +133,7 @@ If not, they have stopped adding new features in Python&amp;nbsp;2.&lt;/p&gt;
 &lt;p&gt;I missed many many more important features (such as Lazy Evaluations, Unicode Support, Better Async, Better exception, Better &lt;span class="caps"&gt;OOP&lt;/span&gt;, etc), but I hope you understand why you should stop using Python&amp;nbsp;2.&lt;/p&gt;
 &lt;p&gt;If you have to touch the legacy codebase written in Python2, yes you can use&amp;nbsp;Python2.&lt;/p&gt;
 &lt;p&gt;If you start a new project, please do use Python&amp;nbsp;3.&lt;/p&gt;</content></entry><entry><title>Policy Gradient</title><link href="https://kkweon.github.io/policy-gradient.html" rel="alternate"></link><published>2017-06-01T00:00:00-07:00</published><updated>2017-06-01T00:00:00-07:00</updated><author><name>Mo</name></author><id>tag:kkweon.github.io,2017-06-01:/policy-gradient.html</id><summary type="html">
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -56,8 +141,7 @@ If not, they have stopped adding new features in Python&amp;nbsp;2.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -67,8 +151,7 @@ $$action = f(state)$$
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -77,8 +160,7 @@ $$P(action_t \mid state_t) = \pi(a \mid s)$$
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -1061,8 +1143,7 @@ h6:hover .anchor-link {
 
 .ansi-bold { font-weight: bold; }
 &lt;/style&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -1070,8 +1151,7 @@ h6:hover .anchor-link {
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -1081,8 +1161,7 @@ $$action = f(state)$$
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -1091,8 +1170,7 @@ $$P(action_t \mid state_t) = \pi(a \mid s)$$
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -1106,8 +1184,7 @@ P(아래\ |\ state) &amp;= 0.0 &amp;#92;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -1116,8 +1193,7 @@ P(아래\ |\ state) &amp;= 0.0 &amp;#92;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -1133,8 +1209,7 @@ P(아래\ |\ state) &amp;= 0.0 &amp;#92;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -1151,8 +1226,7 @@ P(아래\ |\ state) &amp;= 0.0 &amp;#92;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -1171,8 +1245,7 @@ P(아래\ |\ state) &amp;= 0.0 &amp;#92;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -1190,8 +1263,7 @@ P(아래\ |\ state) &amp;= 0.0 &amp;#92;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -1199,8 +1271,7 @@ P(아래\ |\ state) &amp;= 0.0 &amp;#92;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -1213,8 +1284,7 @@ P(아래\ |\ state) &amp;= 0.0 &amp;#92;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -1225,8 +1295,7 @@ $\rightarrow$ &lt;strong&gt;gradient ascent&lt;/strong&gt; instead of &lt;strong
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -1235,8 +1304,7 @@ $\rightarrow$ &lt;strong&gt;gradient ascent&lt;/strong&gt; instead of &lt;strong
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -1248,8 +1316,7 @@ $$ \tau = (s_0, a_0, r_0, \dots, s_{T-1}, a_{T-1}, r_{T - 1}, s_T)$$$$ E[r_0 + r
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -1265,8 +1332,7 @@ p(\tau \mid \theta) &amp;= \mu(s_0) \cdot \pi(a_0 \mid s_0, \theta) \cdot P(s_1,
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -1279,8 +1345,7 @@ p(\tau \mid \theta) &amp;= \mu(s_0) \cdot \pi(a_0 \mid s_0, \theta) \cdot P(s_1,
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -1296,8 +1361,7 @@ p(\tau \mid \theta) &amp;= \mu(s_0) \cdot \pi(a_0 \mid s_0, \theta) \cdot P(s_1,
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -1319,8 +1383,7 @@ $$A_t = \sum_{t&amp;#8217;= t}^{T - 1} \gamma^{t&amp;#8217; - t} r_{t&amp;#8217;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -1332,8 +1395,7 @@ $$ E\left[r_0 + r_1 + \dots + r_{T-1} \mid \pi_\theta \right]$$&lt;p&gt;We updat
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -1347,8 +1409,7 @@ $$\theta \leftarrow \theta - \alpha \cdot \left( - \hat{g}\right) = \theta + \al
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -1411,8 +1472,7 @@ $$\text{Loss}(\theta) = \sum_{i=0}^{T - 1} - \log \pi (a_i \mid s_i, \theta) \cd
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -1423,8 +1483,7 @@ $$\text{Loss}(\theta) = \sum_{i=0}^{T - 1} - \log \pi (a_i \mid s_i, \theta) \cd
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -1439,8 +1498,7 @@ $$\text{Loss}(\theta) = \sum_{i=0}^{T - 1} - \log \pi (a_i \mid s_i, \theta) \cd
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -1545,8 +1603,7 @@ $$\text{Loss}(\theta) = \sum_{i=0}^{T - 1} - \log \pi (a_i \mid s_i, \theta) \cd
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;들여쓰기는 스페이스 4칸이라던지 더 많이 있지만&amp;#8230; 더 자세한건 공홈에서 확인해 볼 수 있다.&lt;br&gt;
-&lt;/p&gt;
+&lt;p&gt;들여쓰기는 스페이스 4칸이라던지 더 많이 있지만&amp;#8230; 더 자세한건 공홈에서 확인해 볼 수&amp;nbsp;있다.  &lt;/p&gt;
 &lt;h2&gt;&lt;a href="https://google.github.io/styleguide/pyguide.html"&gt;&lt;strong&gt;Google Python Style&amp;nbsp;Guide&lt;/strong&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;PEP8과 거의 유사하다.
 구글 프로젝트 (Tensorflow) 때문에 가장 요즘 많이 접하게 된다.
@@ -2195,6 +2252,7 @@ for i = [1, N]:
 &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="nb"&gt;file&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;os&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;listdir&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;CIFAR_DATASETS_PATH&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
     &lt;span class="n"&gt;fileList&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;append&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;CIFAR_DATASETS_PATH&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="nb"&gt;file&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 
+
 &lt;span class="c1"&gt;# 0 -&amp;gt; label&lt;/span&gt;
 &lt;span class="c1"&gt;# 1:5 -&amp;gt; Train Set&lt;/span&gt;
 &lt;span class="c1"&gt;# 7 -&amp;gt; Test Set&lt;/span&gt;
@@ -2217,6 +2275,7 @@ for i = [1, N]:
 &lt;span class="n"&gt;fileList&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[]&lt;/span&gt;
 &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="nb"&gt;file&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;os&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;listdir&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;CIFAR_DATASETS_PATH&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
     &lt;span class="n"&gt;fileList&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;append&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;CIFAR_DATASETS_PATH&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="nb"&gt;file&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
 
 &lt;span class="c1"&gt;# 0 -&amp;gt; label&lt;/span&gt;
 &lt;span class="c1"&gt;# 1:5 -&amp;gt; Train Set&lt;/span&gt;
@@ -2242,6 +2301,7 @@ for i = [1, N]:
     &lt;span class="k"&gt;with&lt;/span&gt; &lt;span class="nb"&gt;open&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;file&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;rb&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="n"&gt;f&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
         &lt;span class="n"&gt;data&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;pickle&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;load&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;f&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;encoding&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;bytes&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
     &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;data&lt;/span&gt;
+
 
 &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;load_multiple_data&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;fileList&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
     &lt;span class="n"&gt;X&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Y&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[],&lt;/span&gt; &lt;span class="p"&gt;[]&lt;/span&gt;
@@ -2297,6 +2357,7 @@ for i = [1, N]:
     &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;train&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;X&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Y&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
         &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Xtr&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;X&lt;/span&gt;
         &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Ytr&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;Y&lt;/span&gt;
+
 
     &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;predict&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;X&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;k&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
         &lt;span class="sd"&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
@@ -2375,6 +2436,10 @@ for i = [1, N]:
 &lt;span class="n"&gt;Accuracy&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;0.0&lt;/span&gt;&lt;span class="o"&gt;%&lt;/span&gt;
 &lt;span class="o"&gt;=================&lt;/span&gt;
 
+
+
+
+
 &lt;span class="mf"&gt;0.0&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
@@ -2396,6 +2461,10 @@ for i = [1, N]:
 &lt;span class="o"&gt;=================&lt;/span&gt;
 &lt;span class="n"&gt;Accuracy&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;20.0&lt;/span&gt;&lt;span class="o"&gt;%&lt;/span&gt;
 &lt;span class="o"&gt;=================&lt;/span&gt;
+
+
+
+
 
 &lt;span class="mf"&gt;0.20000000000000001&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
@@ -2424,6 +2493,10 @@ for i = [1, N]:
 &lt;span class="n"&gt;Accuracy&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;100.0&lt;/span&gt;&lt;span class="o"&gt;%&lt;/span&gt;
 &lt;span class="o"&gt;=================&lt;/span&gt;
 
+
+
+
+
 &lt;span class="mf"&gt;1.0&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
@@ -2445,6 +2518,10 @@ for i = [1, N]:
 &lt;span class="o"&gt;=================&lt;/span&gt;
 &lt;span class="n"&gt;Accuracy&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;40.0&lt;/span&gt;&lt;span class="o"&gt;%&lt;/span&gt;
 &lt;span class="o"&gt;=================&lt;/span&gt;
+
+
+
+
 
 &lt;span class="mf"&gt;0.40000000000000002&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;

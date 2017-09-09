@@ -5,37 +5,44 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://kkweon.github.io/</loc>
-<lastmod>2017-06-05T15:17:34-00:00</lastmod>
+<lastmod>2017-09-09T03:59:08-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
 <loc>https://kkweon.github.io/archives.html</loc>
-<lastmod>2017-06-05T15:17:34-00:00</lastmod>
+<lastmod>2017-09-09T03:59:08-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
 <loc>https://kkweon.github.io/tags.html</loc>
-<lastmod>2017-06-05T15:17:34-00:00</lastmod>
+<lastmod>2017-09-09T03:59:08-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
 <loc>https://kkweon.github.io/categories.html</loc>
-<lastmod>2017-06-05T15:17:34-00:00</lastmod>
+<lastmod>2017-09-09T03:59:08-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
 <loc>https://kkweon.github.io/pages/about.html</loc>
-<lastmod>2017-06-05T15:17:34-00:00</lastmod>
+<lastmod>2017-09-09T03:59:08-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://kkweon.github.io/org-mode-test.html</loc>
+<lastmod>2017-09-09T00:00:00-07:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
 </url>
 
 <url>
@@ -124,7 +131,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://kkweon.github.io/category/misc.html</loc>
-<lastmod>2016-12-19T00:00:00-07:53</lastmod>
+<lastmod>2017-09-09T00:00:00-07:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
@@ -138,7 +145,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://kkweon.github.io/author/mo.html</loc>
-<lastmod>2017-06-02T20:00:00-07:53</lastmod>
+<lastmod>2017-09-09T00:00:00-07:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>

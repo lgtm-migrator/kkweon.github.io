@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 # Set to False when Publish
-RELATIVE_URLS = False
+RELATIVE_URLS = True
 
 AUTHOR = 'Mo'
 SITENAME = 'Machine Learning Study Blog'
@@ -84,7 +84,7 @@ DEFAULT_PAGINATION = 10
 USE_FOLDER_AS_CATEGORY = True
 
 # Markup
-MARKUP = ('md', 'ipynb')
+MARKUP = ('md', 'ipynb', 'org')
 
 # Plugins
 PLUGIN_PATHS = ['./pelican-plugins']
@@ -92,7 +92,16 @@ PLUGINS = ['pelican-ipynb.markup',
            "render_math",
            'sitemap',
            'rmd_reader',
+           'org_pandoc_reader',
            'gravatar']
+
+ORG_PANDOC_ARGS = ['--mathjax',
+                   '--smart',
+                   '--toc',
+                   '--toc-depth=2',
+                   '--number-sections',
+                   '--standalone',
+                   '--highlight-style=espresso',]
 
 FEED_ALL_RSS = 'feeds/all.rss.xml'
 CATEGORY_FEED_RSS = 'feeds/%s.rss.xml'
@@ -113,4 +122,3 @@ EXTRA_PATH_METADATA = {
 
 CUSTOM_CSS = 'static/mo.css'
 ADD_THIS_ID = "ra-5932152d13edaf2f"
-

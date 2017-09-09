@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Machine Learning Study Blog - misc</title><link>https://kkweon.github.io/</link><description>I write what I have learned today</description><lastBuildDate>Mon, 19 Dec 2016 00:00:00 -0800</lastBuildDate><item><title>How to read papers</title><link>https://kkweon.github.io/how-to-read-papers.html</link><description>&lt;p&gt;Recently I have been reading many papers in &lt;span class="caps"&gt;AI&lt;/span&gt;, &lt;span class="caps"&gt;ML&lt;/span&gt;, and &lt;span class="caps"&gt;DL&lt;/span&gt;. One day I was curious if there are some proper ways to read papers. So, I googled it and found &lt;a href="http://ccr.sigcomm.org/online/files/p83-keshavA.pdf"&gt;this article&lt;/a&gt; by S. Keshav is very helpful. Here is the summary of the article&lt;sup id="ref1"&gt;&lt;a href="#ft1"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+<rss version="2.0"><channel><title>Machine Learning Study Blog - misc</title><link>https://kkweon.github.io/</link><description>I write what I have learned today</description><lastBuildDate>Sat, 09 Sep 2017 00:00:00 -0700</lastBuildDate><item><title>Org Mode Test</title><link>https://kkweon.github.io/org-mode-test.html</link><description>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;meta charset="utf-8"&gt;
+  &lt;meta name="generator" content="pandoc"&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"&gt;
+  &lt;title&gt;&lt;/title&gt;
+  &lt;style type="text/css"&gt;code{white-space: pre;}&lt;/style&gt;
+  &lt;style type="text/css"&gt;
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; background-color: #2a211c; color: #bdae9d; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; background-color: #2a211c; color: #bdae9d; border-right: 1px solid #bdae9d; }
+td …&lt;/style&gt;&lt;/meta&gt;&lt;/meta&gt;&lt;/meta&gt;&lt;/head&gt;&lt;/html&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mo</dc:creator><pubDate>Sat, 09 Sep 2017 00:00:00 -0700</pubDate><guid isPermaLink="false">tag:kkweon.github.io,2017-09-09:/org-mode-test.html</guid></item><item><title>How to read papers</title><link>https://kkweon.github.io/how-to-read-papers.html</link><description>&lt;p&gt;Recently I have been reading many papers in &lt;span class="caps"&gt;AI&lt;/span&gt;, &lt;span class="caps"&gt;ML&lt;/span&gt;, and &lt;span class="caps"&gt;DL&lt;/span&gt;. One day I was curious if there are some proper ways to read papers. So, I googled it and found &lt;a href="http://ccr.sigcomm.org/online/files/p83-keshavA.pdf"&gt;this article&lt;/a&gt; by S. Keshav is very helpful. Here is the summary of the article&lt;sup id="ref1"&gt;&lt;a href="#ft1"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 &lt;h3&gt;Three pass …&lt;/h3&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mo</dc:creator><pubDate>Mon, 19 Dec 2016 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:kkweon.github.io,2016-12-19:/how-to-read-papers.html</guid></item><item><title>Super Learner 정리</title><link>https://kkweon.github.io/super-learner.html</link><description>&lt;p&gt;&lt;a href="https://www.udemy.com/become-a-superlearner-2-speed-reading-memory-accelerated-learning"&gt;Udemy&amp;#8217;s Super Learner 2&lt;/a&gt;에 대한&amp;nbsp;노트&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;span class="caps"&gt;WPM&lt;/span&gt;:&amp;nbsp;260&lt;/li&gt;

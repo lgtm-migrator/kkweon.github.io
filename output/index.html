@@ -99,6 +99,38 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <article>
   <header>
+    <h2><a href="https://kkweon.github.io/org-mode-test.html#org-mode-test">Org Mode&nbsp;Test</a></h2>
+    <p>
+          Posted on Sat 09 September 2017 in <a href="https://kkweon.github.io/category/misc.html">misc</a>
+
+
+
+    </p>
+  </header>
+  <div>
+      <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; background-color: #2a211c; color: #bdae9d; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; background-color: #2a211c; color: #bdae9d; border-right: 1px solid #bdae9d; }
+td …</style></meta></meta></meta></head></html>
+      <br>
+      <a class="btn" href="https://kkweon.github.io/org-mode-test.html#org-mode-test">    Continue reading
+</a>
+  </div>
+  <hr />
+</article>
+<article>
+  <header>
     <h2><a href="https://kkweon.github.io/why-you-want-python-36-over-python-2.html#why-you-want-python-36-over-python-2">Why you want Python 3.6 over Python&nbsp;2</a></h2>
     <p>
           Posted on Fri 02 June 2017 in <a href="https://kkweon.github.io/category/python.html">python</a>
@@ -129,8 +161,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   </header>
   <div>
       
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -138,8 +169,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -149,8 +179,7 @@ $$action = f(state)$$
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -159,8 +188,7 @@ $$P(action_t \mid state_t) = \pi(a \mid s)$$
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -371,47 +399,6 @@ for i = [1, N]:
 <p>문장을 시작해서 …</p>
       <br>
       <a class="btn" href="https://kkweon.github.io/super-learner.html#super-learner">    Continue reading
-</a>
-  </div>
-  <hr />
-</article>
-<article>
-  <header>
-    <h2><a href="https://kkweon.github.io/knn-cs231n-lecture-2.html#knn-cs231n-lecture-2"><span class="caps">KNN</span> CS231n&nbsp;Lecture</a></h2>
-    <p>
-          Posted on Sun 31 July 2016 in <a href="https://kkweon.github.io/category/python.html">python</a>
-
-
-
-    </p>
-  </header>
-  <div>
-      <h2>필요 라이브러리&nbsp;호출</h2>
-<div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
-<span class="kn">import</span> <span class="nn">operator</span>
-<span class="kn">import</span> <span class="nn">os</span>
-<span class="kn">import</span> <span class="nn">pickle</span>
-<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="kn">as</span> <span class="nn">plt</span>
-<span class="o">%</span><span class="n">matplotlib</span> <span class="n">inline</span>
-</pre></div>
-
-
-<div class="highlight"><pre><span></span><span class="n">CIFAR_DATASETS_PATH</span> <span class="o">=</span> <span class="s2">&quot;./cifar-10-batches-py/&quot;</span>
-</pre></div>
-
-
-<div class="highlight"><pre><span></span><span class="c1"># CIFAR-10 Data 위치 찾음</span>
-<span class="n">fileList</span> <span class="o">=</span> <span class="p">[]</span>
-<span class="k">for</span> <span class="nb">file</span> <span class="ow">in</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">CIFAR_DATASETS_PATH</span><span class="p">):</span>
-    <span class="n">fileList</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">CIFAR_DATASETS_PATH</span> <span class="o">+</span> <span class="nb">file</span><span class="p">)</span>
-
-<span class="c1"># 0 -&gt; label</span>
-<span class="c1"># 1:5 -&gt; Train Set</span>
-<span class="c1"># 7 -&gt; Test Set</span>
-<span class="n">LabelData</span> <span class="o">=</span> <span class="n">fileList</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-<span class="n">TrainDatasets …</span></pre></div>
-      <br>
-      <a class="btn" href="https://kkweon.github.io/knn-cs231n-lecture-2.html#knn-cs231n-lecture-2">    Continue reading
 </a>
   </div>
 </article>

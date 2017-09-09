@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Machine Learning Study Blog</title><link>https://kkweon.github.io/</link><description>I write what I have learned today</description><lastBuildDate>Fri, 02 Jun 2017 20:00:00 -0700</lastBuildDate><item><title>Why you want Python 3.6 over Python 2</title><link>https://kkweon.github.io/why-you-want-python-36-over-python-2.html</link><description>&lt;p&gt;When I say Python 3, I am referring to Python 3.6 because Python 3.6 is the current latest version as of today. For Python2, of course I&amp;#8217;m referring to Python 2.7.x (it&amp;#8217;s scheduled to discontinue by 2020). But, I&amp;#8217;m not talking about the …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mo</dc:creator><pubDate>Fri, 02 Jun 2017 20:00:00 -0700</pubDate><guid isPermaLink="false">tag:kkweon.github.io,2017-06-02:/why-you-want-python-36-over-python-2.html</guid></item><item><title>Policy Gradient</title><link>https://kkweon.github.io/policy-gradient.html</link><description>
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+<rss version="2.0"><channel><title>Machine Learning Study Blog</title><link>https://kkweon.github.io/</link><description>I write what I have learned today</description><lastBuildDate>Sat, 09 Sep 2017 00:00:00 -0700</lastBuildDate><item><title>Org Mode Test</title><link>https://kkweon.github.io/org-mode-test.html</link><description>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;meta charset="utf-8"&gt;
+  &lt;meta name="generator" content="pandoc"&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"&gt;
+  &lt;title&gt;&lt;/title&gt;
+  &lt;style type="text/css"&gt;code{white-space: pre;}&lt;/style&gt;
+  &lt;style type="text/css"&gt;
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; background-color: #2a211c; color: #bdae9d; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; background-color: #2a211c; color: #bdae9d; border-right: 1px solid #bdae9d; }
+td …&lt;/style&gt;&lt;/meta&gt;&lt;/meta&gt;&lt;/meta&gt;&lt;/head&gt;&lt;/html&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mo</dc:creator><pubDate>Sat, 09 Sep 2017 00:00:00 -0700</pubDate><guid isPermaLink="false">tag:kkweon.github.io,2017-09-09:/org-mode-test.html</guid></item><item><title>Why you want Python 3.6 over Python 2</title><link>https://kkweon.github.io/why-you-want-python-36-over-python-2.html</link><description>&lt;p&gt;When I say Python 3, I am referring to Python 3.6 because Python 3.6 is the current latest version as of today. For Python2, of course I&amp;#8217;m referring to Python 2.7.x (it&amp;#8217;s scheduled to discontinue by 2020). But, I&amp;#8217;m not talking about the …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mo</dc:creator><pubDate>Fri, 02 Jun 2017 20:00:00 -0700</pubDate><guid isPermaLink="false">tag:kkweon.github.io,2017-06-02:/why-you-want-python-36-over-python-2.html</guid></item><item><title>Policy Gradient</title><link>https://kkweon.github.io/policy-gradient.html</link><description>
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -9,8 +22,7 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -20,8 +32,7 @@ $$action = f(state)$$
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -30,8 +41,7 @@ $$P(action_t \mid state_t) = \pi(a \mid s)$$
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -131,6 +141,7 @@ for i = [1, N]:
 &lt;span class="n"&gt;fileList&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[]&lt;/span&gt;
 &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="nb"&gt;file&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;os&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;listdir&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;CIFAR_DATASETS_PATH&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
     &lt;span class="n"&gt;fileList&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;append&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;CIFAR_DATASETS_PATH&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="nb"&gt;file&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
 
 &lt;span class="c1"&gt;# 0 -&amp;gt; label&lt;/span&gt;
 &lt;span class="c1"&gt;# 1:5 -&amp;gt; Train Set&lt;/span&gt;
