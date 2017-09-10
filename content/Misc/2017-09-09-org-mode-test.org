@@ -1,5 +1,8 @@
 #+Title: Org Mode Test
 #+Date: 2017-09-09
+#+LATEX_HEADER: \usepackage{kotex}
+#+LATEX_HEADER: \usepackage[style=apa,citestyle=authoryear,backend=biber,language=american-apa,natbib]{biblatex}
+#+LATEX_HEADER: \addbibresource{~/Dropbox/bibliography/references.bib}
 
 * Headline 1
 
@@ -17,10 +20,14 @@ print("Hello, world!")
 #+BEGIN_QUOTE
 <img src="./Image Screenshot/screenshot_2017-09-09_03-49-05.png" />
 #+END_QUOTE
+* FootNote
 
+- unit test :: it refers to testing the smallest atomic units of software independently of one another.
+- spec test :: somewhat like unit test. Check out Rspec[fn:1].
+* Ref test
+- KR-C book \citep{ritchie88_c}
+- RWH book \citep{bryan09_real_haskel}
 
-* Bibtex
-cite:ritchie88_c
+* References
 
-# load-library ox-bibtex
-#+BIBLIOGRAPHY: /home/kkweon/Dropbox/bibliography/references.bib plain option:-nobibsource limit:t option:-nokeywords
+[fn:1] http://www.betterspecs.org/

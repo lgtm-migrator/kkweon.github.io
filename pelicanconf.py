@@ -101,9 +101,7 @@ ORG_PANDOC_ARGS = [
     '--toc-depth=2',
     '--number-sections',
     '--standalone',
-    '--bibliography=~/Dropbox/bibliography/references.bib',
-    '--biblatex',
-    '--natbib',
+    '--bibliography=/home/kkweon/Dropbox/bibliography/references.bib',
     '--highlight-style=pygments',
 ]
 
