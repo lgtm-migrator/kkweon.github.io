@@ -1,9 +1,5 @@
-#+LATEX_HEADER: \usepackage{kotex}
-#+LATEX_HEADER: \usepackage[style=apa,citestyle=authoryear,backend=biber,language=american-apa,natbib]{biblatex}
-#+LATEX_HEADER: \addbibresource{~/Dropbox/bibliography/references.bib}
 #+Title: Org Mode Test
 #+Date: 2017-09-09
-
 
 * Headline 1
 
@@ -25,10 +21,6 @@ print("Hello, world!")
 
 * Bibtex
 cite:ritchie88_c
-
-
-\printbibliography
-
 
 # load-library ox-bibtex
 #+BIBLIOGRAPHY: /home/kkweon/Dropbox/bibliography/references.bib plain option:-nobibsource limit:t option:-nokeywords

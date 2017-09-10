@@ -16,7 +16,6 @@ SITELOGO = "https://avatars3.githubusercontent.com/u/2981167?v=3&s=460"
 FAVICON = SITEURL + '/images/favicon.ico'
 PYGMENTS_STYLE = 'default'
 
-
 # THEME
 BROWSER_COLOR = '#333'
 ROBOTS = 'index, follow'
@@ -29,9 +28,11 @@ CC_LICENSE = {
 COPYRIGHT_YEAR = 2017
 
 MAIN_MENU = True
-MENUITEMS = (('Archives', '/archives.html'),
-             ('Categories', '/categories.html'),
-             ('Tags', '/tags.html'),)
+MENUITEMS = (
+    ('Archives', '/archives.html'),
+    ('Categories', '/categories.html'),
+    ('Tags', '/tags.html'),
+)
 
 SITEMAP = {
     'format': 'xml',
@@ -48,15 +49,13 @@ SITEMAP = {
 }
 GOOGLE_ANALYTICS = "UA-69116729-1"
 GOOGLE_TAG_MANAGER = 'GTM-ABCDEF'
-####
-
 
 PATH = 'content'
 
 TIMEZONE = 'America/Los_Angeles'
 DEFAULT_LANG = 'ko'
 
-THEME = 'pelican-themes/Flex'
+THEME = 'pelican-themes/elegant'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = "feeds/all.atom.xml"
@@ -64,7 +63,6 @@ CATEGORY_FEED_ATOM = "feeds/%s.atom.xml"
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
-
 
 # Blogroll
 LINKS = (
@@ -74,11 +72,8 @@ LINKS = (
 )
 
 # Social widget
-SOCIAL = (
-    ('github', 'http://github.com/kkweon'),
-    ('facebook', 'http://facebook.com/kkweon'),
-    ('rss', 'http://kkweon.github.io/feeds/all.atom.xml'),
-)
+SOCIAL = (('github', 'http://github.com/kkweon'),
+          ('facebook', 'http://facebook.com/kkweon'), )
 
 DEFAULT_PAGINATION = 10
 USE_FOLDER_AS_CATEGORY = True
@@ -87,21 +82,30 @@ USE_FOLDER_AS_CATEGORY = True
 MARKUP = ('md', 'ipynb', 'org')
 
 # Plugins
-PLUGIN_PATHS = ['./pelican-plugins']
-PLUGINS = ['pelican-ipynb.markup',
-           "render_math",
-           'sitemap',
-           'rmd_reader',
-           'org_pandoc_reader',
-           'gravatar']
+PLUGIN_PATHS = [
+    './pelican-plugins',
+]
+PLUGINS = [
+    'pelican-ipynb.markup',
+    "render_math",
+    'sitemap',
+    'rmd_reader',
+    'org_pandoc_reader',
+    'gravatar',
+]
 
-ORG_PANDOC_ARGS = ['--mathjax',
-                   '--smart',
-                   '--toc',
-                   '--toc-depth=2',
-                   '--number-sections',
-                   '--standalone',
-                   '--highlight-style=espresso',]
+ORG_PANDOC_ARGS = [
+    '--mathjax',
+    '--smart',
+    '--toc',
+    '--toc-depth=2',
+    '--number-sections',
+    '--standalone',
+    '--bibliography=~/Dropbox/bibliography/references.bib',
+    '--biblatex',
+    '--natbib',
+    '--highlight-style=pygments',
+]
 
 FEED_ALL_RSS = 'feeds/all.rss.xml'
 CATEGORY_FEED_RSS = 'feeds/%s.rss.xml'
@@ -117,8 +121,9 @@ RMD_READER_RENAME_PLOT = 'directory'
 RMD_READER_KNITR_OPTS_CHUNK = {'fig.path': 'figure/'}
 STATIC_PATHS = ['figure', 'images', 'static']
 EXTRA_PATH_METADATA = {
-    'static/css/mo.css': {'path': 'static/mo.css'},
+    'static/css/mo.css': {
+        'path': 'static/mo.css'
+    },
 }
 
-CUSTOM_CSS = 'static/mo.css'
 ADD_THIS_ID = "ra-5932152d13edaf2f"

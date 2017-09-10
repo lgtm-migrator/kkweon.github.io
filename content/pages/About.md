@@ -1,4 +1,4 @@
-Title: about
+Title: About
 
 # Hello World
 
