@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<ul>
+    <div class="mdl-grid">
+        {% for category, articles in categories %}
+        <div class="mdl-cell mdl-cell--12-col">
+            <li ><a href="{{ SITEURL }}/{{ category.url }}">{{ category }}</a></li>
+        </div>
+        {% endfor %}
+    </div>
+</ul>
+
+{% endblock %}

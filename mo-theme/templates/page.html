@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+<!-- Head -->
+{% block head %}
+{{ super() }}
+{% if page.description %}
+<meta name="description" content="{{ page.description }}" />
+{% endif %}
+
+{% for tag in page.tags %}
+<meta name="tags" content="{{ tag }}" />
+{% endfor %}
+{% endblock %}
+
+<!-- Title -->
+{% block title %}
+{{ page.title }}
+{%endblock%}
+
+<!-- content -->
+{% block content %}
+<section id="content" class="mdl-grid">
+  <div class="entry-content mdl-cell mdl-cell--12-col">
+    {{ page.content }}
+  </div><!-- /.entry-content -->
+{% endblock %}

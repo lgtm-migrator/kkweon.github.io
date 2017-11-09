@@ -1,16 +1,3 @@
-/* .highlight { */
-/*     background-color: transparent; */
-/* } */
-
-/* #TOC { */
-/*     text-align: left; */
-/* } */
-
-/* aside { */
-/*     display: none; */
-/* } */
-
-/* main { */
-/*     width: 50%; */
-/*     left: 25%; */
-/* } */
+* {
+    box-sizing: border-box;
+}

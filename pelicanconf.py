@@ -55,7 +55,7 @@ PATH = 'content'
 TIMEZONE = 'America/Los_Angeles'
 DEFAULT_LANG = 'ko'
 
-THEME = 'pelican-themes/elegant'
+THEME = 'mo-theme'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = "feeds/all.atom.xml"
@@ -117,11 +117,13 @@ MONTH_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/{date:%b}/index.html'
 
 RMD_READER_RENAME_PLOT = 'directory'
 RMD_READER_KNITR_OPTS_CHUNK = {'fig.path': 'figure/'}
-STATIC_PATHS = ['figure', 'images', 'static']
+STATIC_PATHS = ['figure', 'images', 'static/css/mo.css']
+CUSTOM_CSS = "static/mo.css"
 EXTRA_PATH_METADATA = {
     'static/css/mo.css': {
         'path': 'static/mo.css'
     },
 }
+MD_EXTENSIONS = ['codehilite(noclasses=True, pygments_style=native)', 'extra']  # enable MD options
 
 ADD_THIS_ID = "ra-5932152d13edaf2f"

@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="mdl-grid section-archive">
+  <h2 class="mdl-cell mdl-cell--12-col display-3">Archives for {{ SITENAME }}...
+  </h2>
+  <div class="mdl-cell mdl-cell--12-col">
+    <dl>
+      {% for article in dates %}
+      <dt>{{ article.locale_date }}</dt>
+      <dd><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></dd>
+      {% endfor %}
+    </dl>
+  </div>
+</div>
+{% endblock %}

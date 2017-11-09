@@ -6,7 +6,7 @@ When I say Python 3, I am referring to Python 3.6 because Python 3.6 is the curr
 
 ## F-String
 
-In Python 3.6, a new feature called "F-string" was introduced.  
+In Python 3.6, a new feature called "F-string" was introduced.
 This is so much cleaner(readable) than `print("{} is a Friday!".format(today)`
 
 ```python
@@ -41,12 +41,12 @@ You can use `mypy your_python_file.py` to do a quick type-check as well.
 
 ## Science Community
 
-This is not a feature nor about Python 3.6. But rather it's a statement.  
+This is not a feature nor about Python 3.6. But rather it's a statement.
 Science community plays a very important role in Python.
 
 I believe the science stack of Python's one of the reasons how Python became this popular.
 
-What people don't know is 
+What people don't know is
 
 the following great science libraries have already moved to Python 3.
 Most of these libraries have already stopped supporting Python 2.
@@ -56,7 +56,7 @@ Who cares? It's going to discontinue in 2020 anyway.
 
 * iPython
 * Jupyter Notebook
-* Pandas 
+* Pandas
 * Matplotlib
 * Sympy
 * CPython
