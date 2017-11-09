@@ -53,7 +53,7 @@ GOOGLE_TAG_MANAGER = 'GTM-ABCDEF'
 PATH = 'content'
 
 TIMEZONE = 'America/Los_Angeles'
-DEFAULT_LANG = 'ko'
+DEFAULT_LANG = 'en'
 
 THEME = 'mo-theme'
 

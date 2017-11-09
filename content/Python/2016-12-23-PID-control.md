@@ -6,11 +6,11 @@ It would be awkward if the self-driving car only make a turn at the perfect angl
 ## Smoothing Path Algorithm
 1. $X_i$ denotes each state
 2. Set $Y_i = X_i$
-3. Optimize $\min\ (X_i - Y_i)^2 + \alpha \cdot \min\ (Y_i - Y_{i+1})^2$
+3. Optimize $$\min\ (X_i - Y_i)^2 + \alpha \cdot \min\ (Y_i - Y_{i+1})^2$$
 4. Solve it using the gradient descent
-5. Update $Y_{new} = Y_i + \alpha(X_i - Y_i) + \beta(Y_{i+1} - Y_i)$
+5. Update $$Y_{new} = Y_i + \alpha(X_i - Y_i) + \beta(Y_{i+1} - Y_i)$$
 
-The first portion of the update formula is to make a new path($Y_i$) close to the original path($X_i$). The second portion is to make each point($Y_i$) to close to its next point($Y_{i+1}$). 
+The first portion of the update formula is to make a new path($Y_i$) close to the original path($X_i$). The second portion is to make each point($Y_i$) to close to its next point($Y_{i+1}$).
 
 ## PID Control
 Assume the car has to drive from (0, 10) to (10, 0) on (X,Y) coordinates world. So, the car should drive down close to the x-axis (y=0). How do we control the steering in order to make y = 0?
@@ -18,26 +18,31 @@ Assume the car has to drive from (0, 10) to (10, 0) on (X,Y) coordinates world. 
 You should measure a CTE(Cross Track Error), and the CTE is the y coordinate of the state in this example.
 
 
-* P
-    - It stands for "proportional"
-    - $\alpha = - \tau * CTE$
-* I
-    - It stands for "integral"
-    - There could be a mechanical error in steering.
-    - So, if the CTE does not decrease even after long period of time, there needs to be an adjustment in steering.
-    - So, we need the integral portion to the steering formula
-    - $\alpha = - \tau_p * CTE  - \tau_i \sum CTE$
-* D
-    - It stands for "differential"
-    - When there is only "proportional," it will keep overshooting the x-axis and oscillating. So, we need an extra term to adjust the steering and finally reach the marginal stable state.
-    - We just need to add a differential term
-    - $\alpha = - \tau_p * CTE - \tau_d \frac{d}{dt} CTE$
-    - where $$\frac{d}{dt} CTE = \frac{CTE_t - CTE_{t-1}}{\Delta t}$$
+### P
+It stands for "proportional"
+
+$$\alpha = - \tau \cdot \text{cte}$$
 
 
-## Summary of PID 
+### I
+It stands for "integral"
+There could be a mechanical error in steering.
+So, if the CTE does not decrease even after long period of time, there needs to be an adjustment in steering.
+So, we need the integral portion to the steering formula
 
-$\alpha = - \tau_p CTE - \tau_d \frac{d}{dt}CTE - \tau_i\sum CTE$
+$$ \alpha = - \tau_p * cte  - \tau_i \sum cte $$
+
+### D
+It stands for "differential"
+When there is only "proportional," it will keep overshooting the x-axis and oscillating. So, we need an extra term to adjust the steering and finally reach the marginal stable state.
+We just need to add a differential term
+$$ \alpha = - \tau_p * cte - \tau_d \frac{d}{dt} cte $$
+where $$\frac{d}{dt} cte = \frac{cte_t - cte_{t-1}}{\Delta t}$$
+
+
+## Summary of PID
+
+$$\alpha = - \tau_p cte - \tau_d \frac{d}{dt}cte - \tau_i\sum cte$$
 
 
 ## How to find $\tau$
@@ -76,4 +81,3 @@ while sum(dp) > 0.00001:
     - Planner
     - Smoother
     - Controller (where PID control kicks in)
-
