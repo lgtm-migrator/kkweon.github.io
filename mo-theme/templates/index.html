@@ -1,38 +1,26 @@
 {% extends "base.html" %}
 {% block content %}
-<section id="list" class="mdl-grid">
+<section class="section-index">
 
   {% block content_title %}
   {% endblock %}
 
   {% for article in articles_page.object_list %}
-  <div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col article-card">
-    <div class="mdl-card__title">
-      <h2 class="mdl-card__title-text article-title">{{ article.title }}</h2>
-      <br />
-    </div>
-
-    <div class="mdl-card__supporting-text article-date">
-      <time class="datetime" datetime="{{ article.date.isoformat() }}"> {{ article.locale_date }}</time>
-    </div>
-
-    <div class="mdl-card__supporting-text article-summary">
-      {{ article.summary }}
-    </div>
-
-    <div class="mdl-card__actions mdl-card--border">
-      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ SITEURL }}/{{ article.url }}">
-        Read
-      </a>
+  <div class="card mb-5 article-card">
+    <div class="card-body">
+      <h4 class="card-title">{{ article.title }}</h4>
+      <h6 class="card-subtitle mb-2 text-muted">{{ article.locale_date }}</h6>
+      <p class="card-text">
+        {{ article.summary }}
+      </p>
+      <a class="card-link btn btn-light" href="{{ SITEURL }}/{{ article.url }}">Read</a>
     </div>
   </div>
   {% endfor %}
 
   <!-- /#posts-list -->
   {% if articles_page.has_other_pages() %}
-  <div class="mdl-cell mdl-cell--12-col">
-    {% include 'pagination.html' %}
-  </div>
+  {% include 'pagination.html' %}
   {% endif %}
 
 </section>

@@ -19,8 +19,14 @@
 
 <!-- content -->
 {% block content %}
-<section id="content" class="mdl-grid">
-  <div class="entry-content mdl-cell mdl-cell--12-col">
-    {{ page.content }}
-  </div><!-- /.entry-content -->
+<section class="section-page">
+  <div class="card mb-5 article-card">
+    <div class="card-body">
+      <p class="card-text">
+        {{ page.summary }}
+      </p>
+    </div>
+  </div>
+
+</section>
 {% endblock %}
