@@ -10,9 +10,9 @@
     {% for i in range(articles_paginator.num_pages) %}
     <li class="page-item my-page-item">
       {% if i == 0 %}
-      <a class="page-link" href="{{ SITEURL }}/index.html">{{ i + 1 }}</a>
+      <a class="page-link {% if (i + 1) == articles_page.number %}text-dark bg-light{% endif %}" href="{{ SITEURL }}/index.html">{{ i + 1 }}</a>
       {% else %}
-      <a class="page-link" href="{{ SITEURL }}/index{{i + 1}}.html">{{ i + 1 }}</a>
+      <a class="page-link {% if (i + 1) == articles_page.number %}text-dark bg-light{% endif %}" href="{{ SITEURL }}/index{{i + 1}}.html">{{ i + 1 }}</a>
       {% endif %}
     </li>
     {% endfor %}
