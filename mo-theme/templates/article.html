@@ -7,7 +7,7 @@
 {% endblock %}
 
 {% block meta %}
-<meta name="og:title" content="{{ article.title }}" />
+<meta name="og:title" content="{{ article.title|e }}" />
 <meta name="og:url" content="{{ SITEURL }}/{{article.url}}"/>
 <meta name="og:site_name" content="{{ SITENAME }}"/>
 <meta name="og:type" content="blog"/>
