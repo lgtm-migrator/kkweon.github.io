@@ -19,11 +19,11 @@
 {% block content %}
 
 <section id="content" class="section-content">
-  <div class="card mb-5 article-card">
+  <div class="card mb-5 article-detail-card">
     <div class="card-body">
-      <h4 class="card-title">{{ article.title }}</h4>
-      <h6 class="card-subtitle mb-2 text-muted">{{ article.locale_date }}</h6>
-      <p class="card-text">
+      <h4 class="card-title article-detail-card__title">{{ article.title }}</h4>
+      <h6 class="card-subtitle mb-2 text-muted article-detail-card__date">{{ article.locale_date }}</h6>
+      <p class="card-text article-detail-card__content">
         {{ article.content }}
       </p>
     </div>

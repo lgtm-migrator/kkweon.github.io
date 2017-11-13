@@ -38,32 +38,49 @@ main {
 
 /* index.html */
 
+.article-detail-card,
 .article-card {
     padding: 2% 5%;
     background: rgba(10, 10, 10, 0.7);
     color: white;
 }
 
-.article-title {
-    font-size: 200%;
-    font-weight: 400;
+.article-card *{
+  font-size: 100% !important;
+}
+.article-card__title {
+  font-size: 150% !important;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 
-.article-date {
-    margin-top: 0;
-    padding-top: 0;
+/* article detail */
+.article-detail-card__title {
+  font-size: 250%;
+  font-weight: 100;
+  letter-spacing: 1px;
 }
 
-
-.article-summary * {
-    font-size: 1rem !important;
-    line-height: 100% !important;
+.article-detail-card h1 {
+  font-size: 200%;
+  font-weight: 700;
+  border-bottom: 1px solid white;
+  text-align: center;
+}
+.article-detail-card h2 {
+  font-size: 150%;
+  border-bottom: 1px solid white;
+}
+.article-detail-card h3 {
+  font-size: 130%;
+  font-style: italic;
 }
 
-.article-summary ul,
-.article-summary ol {
-    padding-left: 5%;
+.article-detail-card ul,
+.article-detail-card ol {
+  margin-left: 3%;
 }
+
 
 
 /* PAGINATION */
