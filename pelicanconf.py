@@ -124,6 +124,5 @@ EXTRA_PATH_METADATA = {
         'path': 'static/mo.css'
     },
 }
-MD_EXTENSIONS = ['codehilite(noclasses=True, pygments_style=native)', 'extra']  # enable MD options
 
 ADD_THIS_ID = "ra-5932152d13edaf2f"

@@ -81,6 +81,13 @@ main {
   margin-left: 3%;
 }
 
+.article-detail-card img {
+  max-width: 100% !important;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
 
 
 /* PAGINATION */
