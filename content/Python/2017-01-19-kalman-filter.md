@@ -1,5 +1,6 @@
-Title: Kalman Filter 
+Title: Kalman Filter
 Date: 2017-01-19
+Description: Kalman Filter
 
 ## Definition
 **Kalman filtering, also known as linear quadratic estimation (LQE), is an algorithm** that uses a series of measurements observed over time, containing statistical noise and other inaccuracies, and produces estimates of unknown variables that tend to be more precise than those based on a single measurement alone, blah blah (according to [Wikipedia](https://en.wikipedia.org/wiki/Kalman_filter))
@@ -49,6 +50,5 @@ Although it is incomplete, I am working on creating Kalman filter examples in th
 ## References
 I found the following references are good intro to Kalman Filter and Exmples.
 
-[1] Michel van Biezen, [Special Topics - The Kalman Filter](https://www.youtube.com/watch?v=CaCcOwJPytQ)  
+[1] Michel van Biezen, [Special Topics - The Kalman Filter](https://www.youtube.com/watch?v=CaCcOwJPytQ)
 [2] Wikipedia, [Kalman Filter](https://en.wikipedia.org/wiki/Kalman_filter)
-

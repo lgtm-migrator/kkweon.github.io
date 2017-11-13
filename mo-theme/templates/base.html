@@ -5,7 +5,14 @@
     <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="A portfolio template that uses Material Design Lite.">
+    {% block meta %}
+    <meta name="og:title" content="Mo's Blog" />
+    <meta name="og:url" content="{{ SITEURL }}"/>
+    <meta name="og:site_name" content="{{ SITENAME }}"/>
+    <meta name="og:type" content="blog"/>
+    <meta name="description" content="Blog posts" />
+    <meta name="og:description" content="Blog posts" />
+    {% endblock %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     {% if FEED_ALL_ATOM %}
     <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Full Atom Feed" />
