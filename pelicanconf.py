@@ -28,11 +28,8 @@ CC_LICENSE = {
 COPYRIGHT_YEAR = 2017
 
 MAIN_MENU = True
-MENUITEMS = (
-    ('Archives', '/archives.html'),
-    ('Categories', '/categories.html'),
-    ('Tags', '/tags.html'),
-)
+MENUITEMS = (('Archives', '/archives.html'),
+             ('Categories', '/categories.html'), ('Tags', '/tags.html'), )
 
 SITEMAP = {
     'format': 'xml',
@@ -79,7 +76,7 @@ DEFAULT_PAGINATION = 10
 USE_FOLDER_AS_CATEGORY = True
 
 # Markup
-MARKUP = ('md', 'ipynb', 'org')
+MARKUP = ('md', 'ipynb')
 
 # Plugins
 PLUGIN_PATHS = [
@@ -90,19 +87,7 @@ PLUGINS = [
     "render_math",
     'sitemap',
     'rmd_reader',
-    'org_pandoc_reader',
     'gravatar',
-]
-
-ORG_PANDOC_ARGS = [
-    '--mathjax',
-    '--smart',
-    '--toc',
-    '--toc-depth=2',
-    '--number-sections',
-    '--standalone',
-    '--bibliography=/home/kkweon/Dropbox/bibliography/references.bib',
-    '--highlight-style=pygments',
 ]
 
 FEED_ALL_RSS = 'feeds/all.rss.xml'
