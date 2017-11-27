@@ -1,4 +1,0 @@
-#+Title: Docker Reference
-#+Date: 2017-11-03
-
-My personal docker reference [Korean]: [[https://gist.github.com/kkweon/2359da953f9b127b19c4146060797631][here]]
