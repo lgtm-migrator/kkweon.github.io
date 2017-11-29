@@ -32,8 +32,8 @@ main {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    padding: 0;
-    min-height: 84%;
+    padding: 0 0 5% 0;
+    min-height: 90vh;
 }
 
 .container {
@@ -162,8 +162,10 @@ main {
 
 .footer {
     height: 10vh;
+    width: 100%;
 }
 
 .footer .container {
     height: 100%;
+    margin: 0 auto;
 }
