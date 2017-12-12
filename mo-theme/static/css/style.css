@@ -169,3 +169,10 @@ main {
     height: 100%;
     margin: 0 auto;
 }
+
+
+.footer-link:hover,
+.footer-link:active {
+  text-decoration: none;
+  color: white;
+}
