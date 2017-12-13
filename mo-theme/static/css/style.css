@@ -41,8 +41,6 @@ main {
 }
 
 
-
-
 /* index.html */
 
 .article-detail-card,
@@ -66,9 +64,10 @@ main {
 /* article detail */
 
 .article-detail-card__title {
-    font-size: 250%;
-    font-weight: 100;
+    font-size: 250% !important;
+    font-weight: 100 !important;
     letter-spacing: 1px;
+    font-style: normal !important;
 }
 
 .article-detail-card h1 {
@@ -85,7 +84,24 @@ main {
 
 .article-detail-card h3 {
     font-size: 130%;
+    font-weight: 800;
     font-style: italic;
+}
+
+.article-detail-card h4 {
+  font-size: 110%;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.article-detail-card h5 {
+  font-size: 105%;
+  font-weight: 800;
+}
+
+.article-detail-card h6 {
+  font-size: 100%;
+  font-weight: 800;
 }
 
 .article-detail-card ul,
