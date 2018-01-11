@@ -125,3 +125,4 @@ $RECYCLE.BIN/
 *.lnk
 *.pid
 .tern-port
+.mypy_cache
