@@ -3,14 +3,11 @@
 /**
  * Adds material design class table.
  */
-function addMdlTableClass() {
+function addTableClass() {
   var tables = document.querySelectorAll("table");
   tables.forEach(function(table) {
-    var className = "table table-responsive";
-    if (!table.className.includes(className)) {
-      table.className += " " + className;
-    }
+    table.classList.add("table");
   });
 }
 
-document.addEventListener("DOMContentLoaded", addMdlTableClass, false);
+document.addEventListener("DOMContentLoaded", addTableClass, false);
