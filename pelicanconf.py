@@ -83,11 +83,10 @@ PLUGIN_PATHS = [
     './pelican-plugins',
 ]
 PLUGINS = [
-    'pelican-ipynb.markup',
     "render_math",
-    'sitemap',
-    'rmd_reader',
-    'gravatar',
+    "sitemap",
+    "rmd_reader",
+    "gravatar",
 ]
 
 FEED_ALL_RSS = 'feeds/all.rss.xml'
