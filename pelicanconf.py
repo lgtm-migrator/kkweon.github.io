@@ -6,7 +6,7 @@ from __future__ import unicode_literals
 RELATIVE_URLS = True
 
 AUTHOR = 'Mo'
-SITENAME = 'Machine Learning Study Blog'
+SITENAME = "Mo's Notes"
 SITETITLE = 'ML Study Blog'
 SITESUBTITLE = 'I write what I have learned today'
 SITEDESCRIPTION = 'What I learn today'
@@ -87,6 +87,7 @@ PLUGINS = [
     "sitemap",
     "rmd_reader",
     "gravatar",
+    "assets"
 ]
 
 FEED_ALL_RSS = 'feeds/all.rss.xml'

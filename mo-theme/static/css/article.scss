@@ -1,0 +1,83 @@
+@mixin set-content-fonts() {
+  p {
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+    padding-bottom: 2px;
+    border-bottom: 1px solid white;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+
+    &:before {
+      content: ">>> ";
+    }
+  }
+
+  h4 {
+    font-size: 1.1rem;
+    font-style: italic;
+    text-decoration: underline;
+  }
+
+  h5 {
+    font-size: 1rem;
+  }
+
+  ol li,
+  ul li {
+    margin-left: 1.5rem;
+  }
+}
+
+// index view
+.article-card {
+  padding: 2% 5%;
+  background: $secondary-color;
+  color: white;
+
+  @include set-content-fonts();
+
+  @media screen and (min-width: $break-md) {
+    padding: 1.5rem;
+  }
+}
+
+.article-card__title {
+  font-size: 1.8rem !important;
+  text-decoration: none !important;
+  font-style: normal !important;
+}
+
+// detail view
+.article-detail-card {
+  background: $secondary-color;
+  color: white;
+  @include set-content-fonts();
+
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+  }
+
+  @media screen and (min-width: $break-md) {
+    padding: 1.5rem;
+  }
+
+}
+
+.article-detail-card__title {
+  font-size: 2rem !important;
+  text-decoration: none !important;
+  font-style: normal !important;
+}

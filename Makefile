@@ -63,12 +63,14 @@ help:
 
 html:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
+	if test -d $(BASEDIR)/extra; then cp -r $(BASEDIR)/extra/* $(OUTPUTDIR)/; fi
 
 clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
 
 regenerate:
 	$(PELICAN) -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
+	if test -d $(BASEDIR)/extra; then cp -r $(BASEDIR)/extra/* $(OUTPUTDIR)/; fi
 
 serve:
 ifdef PORT
@@ -85,7 +87,7 @@ else
 endif
 
 
-devserver:
+devserver: clean stopserver
 ifdef PORT
 	$(BASEDIR)/develop_server.sh restart $(PORT)
 else
@@ -98,6 +100,7 @@ stopserver:
 
 publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
+	if test -d $(BASEDIR)/extra; then cp -r $(BASEDIR)/extra/* $(OUTPUTDIR)/; fi
 
 ssh_upload: publish
 	scp -P $(SSH_PORT) -r $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
