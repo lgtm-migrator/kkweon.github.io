@@ -6,6 +6,37 @@
 .footer .container {
   height: 100%;
   margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  @media screen and (min-width: $break-lg) {
+    justify-content: space-between;
+  }
+}
+
+.footer__copyright {
+  flex: 3 1 300px;
+  text-align: center;
+
+  @media screen and (min-width: $break-lg) {
+    text-align: left;
+  }
+
+}
+
+.footer__contact {
+  display: flex;
+  flex: 1 1 300px;
+  justify-content: center;
+
+  .footer__contact__item:first-child {
+    margin-right: 5%;
+  }
+
+  @media screen and (min-width: $break-lg) {
+    justify-content: flex-end;
+  }
 }
 
 .footer-link:hover,
