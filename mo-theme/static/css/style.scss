@@ -18,13 +18,14 @@ html,
 body {
   font-family: "Nanum Gothic", "Roboto", sans-serif;
   font-size: 14px;
+  line-height: 1.5;
 
   @media screen and (min-width: $break-md) {
     font-size: 15px;
   }
 
   @media screen and (min-width: $break-lg) {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 

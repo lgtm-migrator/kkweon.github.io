@@ -18,7 +18,8 @@
     font-size: 1.2rem;
 
     &:before {
-      content: ">>> ";
+      content: ">>>";
+      margin-right: 5px;
     }
   }
 
