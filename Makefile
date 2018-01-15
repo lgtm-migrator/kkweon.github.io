@@ -64,6 +64,7 @@ help:
 html:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 	if test -d $(BASEDIR)/extra; then cp -r $(BASEDIR)/extra/* $(OUTPUTDIR)/; fi
+	npx postcss output/theme/css/style.min.css --use=autoprefixer -r
 
 clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
@@ -101,6 +102,7 @@ stopserver:
 publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
 	if test -d $(BASEDIR)/extra; then cp -r $(BASEDIR)/extra/* $(OUTPUTDIR)/; fi
+	npx postcss output/theme/css/style.min.css --use=autoprefixer -r
 
 ssh_upload: publish
 	scp -P $(SSH_PORT) -r $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)

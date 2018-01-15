@@ -22,7 +22,6 @@
   @media screen and (min-width: $break-lg) {
     text-align: left;
   }
-
 }
 
 .footer__contact {
@@ -39,8 +38,12 @@
   }
 }
 
-.footer-link:hover,
-.footer-link:active {
-  text-decoration: none;
-  color: white;
+.footer-link,
+.footer-link {
+  white-space: nowrap;
+  &:hover,
+  &:active {
+    text-decoration: none;
+    color: white;
+  }
 }

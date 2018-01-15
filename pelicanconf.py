@@ -109,5 +109,4 @@ EXTRA_PATH_METADATA = {
         'path': 'static/mo.css'
     },
 }
-
 ADD_THIS_ID = "ra-5932152d13edaf2f"
